@@ -1,0 +1,71 @@
+.about--setting {
+  padding: 0px 213px;
+}
+
+.about-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  font-family: 'Vollkorn SC';
+  margin-bottom: 130px;
+  min-width: 800px;
+}
+
+.about-text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 50px;
+  max-width: 600px;
+}
+
+.two {
+  min-width: 687px;
+}
+
+.three {
+  min-width: 700px;
+}
+
+.about-image {
+  background-image: url(../img/image_misson.png);
+  min-height: 603px;
+  min-width: 603px;
+  background-repeat: no-repeat;
+  transform: translateY(27px) translateX(163px);
+}
+
+@media (max-width: 1510px) {
+  .about--setting {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1100px) {
+  .about--setting,
+  .two,
+  .three {
+    min-width: auto;
+  }
+
+  .about-title {
+    font-size: 25px;
+    line-height: 33px;
+    margin-bottom: 40px;
+    min-width: auto;
+  }
+
+  .about-text {
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 21px;
+  }
+
+  .about-image {
+    transform: none;
+    background-position: center;
+    background-size: contain;
+    min-height: 366px;
+    min-width: auto;
+  }
+}

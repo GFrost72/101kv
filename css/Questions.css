@@ -1,0 +1,154 @@
+.qestion-wrapper {
+  background-color: #CACACA;
+  min-width: 1273px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+@media (max-width: 1010px) {
+  .qestion-wrapper {
+    min-width: 0;
+  }
+}
+
+.block-qestion {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 12.333333%;
+}
+
+
+.block-qform {
+  flex: 0 0 auto;
+  width: 54.333333%;
+}
+
+
+.button-block {
+  flex: 0 0 auto;
+  width: 33.666667%;
+}
+
+.form-title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.form-group {
+  width: 318px;
+  margin-right: 35px;
+  text-align: left;
+  width: 100%;
+}
+
+.form-group:last-child {
+  margin-right: 0;
+}
+
+.Qestion-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 21px;
+  color: rgba(28, 132, 147, 0.52);
+}
+
+@media (max-width: 767px) {
+  .input-group {
+    flex-wrap: wrap;
+  }
+
+  .form-group {
+    margin-right: 0px;
+  }
+
+  .block-qestion {
+    display: none;
+  }
+
+  .no-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .block-qform,
+  .btn--width {
+    width: 100%;
+   }
+}
+
+
+
+.container-md {
+  max-width: 1280px;
+}
+
+.btn--width {
+  width: 29.333333%;
+}
+
+.margin-bottom {
+  margin-bottom: 26px;
+}
+
+.question-poltic {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 21px;
+  max-width: 420px;
+}
+
+
+@media (max-width: 450px) {
+  .form--setting {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px; /* Добавить промежуток между полями ввода */
+  }
+}
+
+/* Стили по умолчанию: поля формы располагаются в одну строку */
+.input-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-group .form-control {
+  flex: 1;
+  margin-right: 10px;
+}
+
+/* Стили для экранов шириной 450px и меньше: поля формы располагаются друг под другом */
+@media screen and (max-width: 450px) {
+  .input-group {
+      flex-direction: column;
+  }
+
+  .input-group .form-control {
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 450px){
+.input-group .form-control {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+}
+
+@media (max-width: 450px) {
+  .btn--width {
+    width: 63.333333%;
+  }
+
+  .btn-label-questions {
+    font-size: 16px;
+  }
+}

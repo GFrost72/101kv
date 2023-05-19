@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="Ремонт квартир в Тюмени под ключ"
+    content="Ремонт квартир в Тюмени: Мы оказываем услуги по качественному ремонту квартир. Разработка дизайн-проекта, технического проекта, подбор и хранение материалов, сантехника, электрика. Обратитесь к нам для профессионального ремонта квартиры в Тюмени. 101kv. +7 (3452) 903-000">
+  <title>101 Квадрат Строительная Компания</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+  <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
+  </script>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/maps.css">
+  <link rel="stylesheet" href="css/btn.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/Advantages.css">
+  <link rel="stylesheet" href="css/portfolio.css">
+  <link rel="stylesheet" href="css/tasks.css">
+  <link rel="stylesheet" href="css/repair-how.css">
+  <link rel="stylesheet" href="css/services.css">
+  <link rel="stylesheet" href="css/services-adv.css">
+  <link rel="stylesheet" href="css/Questions.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/modalwindows.css">
+  <link rel="stylesheet" href="css/burger.css">
+
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Vollkorn+SC:regular,600,700,900" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Rowdies:300,regular,700" rel="stylesheet" />
+</head>
+
+<body class="page">
+
+  <!-- header -->
+
+  <div class="wrapper-hero section-offset">
+    <div class="wrapper-shadow">
+      <header class="header  align-items-center">
+        <a href=""><img class="logo" src="./img/logo.svg" alt="logo"></a>
+        <nav class="navigation justify-content-between">
+          <a class="nav_link" href="../repair/index.html">Ремонт квартир</a>
+          <a class="nav_link" href="../Projects/index.html">Разработка проекта</a>
+          <a class="nav_link" href="../Materials/index.html">Подбор материалов</a>
+          <a class="nav_link" href="../portfolio/index.html">Портфолио</a>
+          <a class="nav_link" href="../price/index.html">Цены и оплата</a>
+          <a class="nav_link" href="../contacts/index.html">Контакты</a>
+        </nav>
+        <button class="header__button btn-reset">
+          <a href="tel:+73452903000">
+            <span class="btn-label">+7 (3452) 903-000</span>
+          </a>
+        </button>
+      </header>
+
+      <!-- Главная -->
+
+      <section class="hero">
+        <div class="container-hero">
+          <div class="row">
+            <div class="col-lg-8 offset-lg-2">
+              <div class="background-hero p-4">
+                <h1 class="Hero-title">КАЧЕСТВЕНЫЙ И НАДЁЖНЫЙ РЕМОНТ В ТЮМЕНИ</h1>
+                <p class="hero-text">Мы не просто делаем ремонт, мы создаем пространство, которое вдохновляет, улучшает
+                  настроение и откуда не хочется уходить. <br> <br> Наша команда специализируется на качественном и
+                  надежном ремонте, чтобы сделать каждую квартиру не просто красивой, но и функциональной, комфортной и
+                  уютной.</p>
+              </div>
+              <button class="button-primary btn-reset margin--bottom" id="openModalButton1">
+                <span class="btn-label-primary btn-hero">ОСТАВИТЬ ЗАЯВКУ</span>
+              </button>
+
+              <div id="myModal1" class="modal">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <span class="modal-title">Оставить заявку</span>
+                    <span class="close">&times;</span>
+                  </div>
+                  <form class="modal-form">
+                    <label for="name">Ваше имя:</label><br>
+                    <input class="modal-input" type="text" id="name" name="name"><br>
+                    <label for="phone">Ваш номер телефона:</label><br>
+                    <input class="modal-input" type="tel" id="phone" name="phone">
+                  </form>
+                  <input class="btn-modal" type="submit" value="Отправить">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- О нас -->
+
+  <section class="about section-offset">
+    <div class="container">
+      <div class="row about--setting">
+        <div class="col-lg-6">
+          <h2 class="about-title">Наша миссия - сделать Вашу жизнь проще!</h2>
+          <p class="about-text">Ремонт связан с множеством процессов.
+            Мы поможем вам на каждом этапе пути, чтобы ваше жилье полностью раскрыло свой потенциал и максимально
+            использовало каждый сантиметр пространства.</p>
+          <p class="about-text two">Каждый проект ремонта должен быть тщательно спланирован, и каждая деталь должна быть
+            принята во внимание.</p>
+          <p class="about-text three">Мы понимаем, что ремонт может быть беспокойным периодом в вашей жизни, поэтому мы
+            работаем эффективно, чтобы завершить проект в срок, сохраняя при этом высокие стандарты качества, чтобы
+            обеспечить долговечность вашего жилья.</p>
+        </div>
+        <div class="col-lg-6">
+          <div class="about-image "></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Преимущества -->
+
+  <section class="advantages section-offset">
+    <div class="container">
+      <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
+      <div class="row">
+        <div class="col-12 col-md-3">
+          <div class="advantage text-center ">
+            <img src="./img/Adb-Phone.svg" alt="консультации" class="advantage-image">
+            <h3 class="advantage-title">Консультация</h3>
+            <p class="advantage-description">Вы можете позвонить или написать нам для бесплатной консультации</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="advantage text-center">
+            <img src="/img/Adb-Contract.svg" alt="Работа по договору" class="advantage-image">
+            <h3 class="advantage-title">Работа по договору</h3>
+            <p class="advantage-description">Мы несем юридическую ответственность за соблюдение договорных условий и
+              сроков</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="advantage text-center">
+            <img src="./img/Adb-Price.svg" alt="Фиксированная стоимость" class="advantage-image">
+            <h3 class="advantage-title">Фиксированная стоимость</h3>
+            <p class="advantage-description">Мы прилагаем к договору смету с итоговой суммой, которая не изменится в
+              процессе ремонта</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="advantage text-center">
+            <img src="./img/Adb-Quality.svg" alt="Качество" class="advantage-image">
+            <h3 class="advantage-title">Качество для нас в приоритете </h3>
+            <p class="advantage-description">Наши опытные специалисты выполняют все работы в соответствии со
+              строительными нормами и правилами</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row margin--top">
+        <div class="col-12 col-md-3">
+          <div class="advantage text-center">
+            <img src="./img/Adb-ContrQual.svg" alt="Контроль" class="advantage-image">
+            <h3 class="advantage-title">Строгий контроль качества</h3>
+            <p class="advantage-description">Мы проводим тщательный контроль каждой выполненной работы за каждым
+              специалистом</p>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-3">
+          <div class="advantage text-center position--control">
+            <img src="./img/Adb-Photo.svg" alt="Фото отчёты" class="advantage-image">
+            <h3 class="advantage-title">Фото и видео отчеты</h3>
+            <p class="advantage-description">Предоставляем регулярные фото / видео отчеты о проделанной работе</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="advantage text-center position--control">
+            <img src="./img/Adb-Financy.svg" alt="Контроль финансов" class="advantage-image">
+            <h3 class="advantage-title">Прозрачный контроль финансов</h3>
+            <p class="advantage-description">У вас будет постоянный доступ в приложение, в котором вы сможете в режиме
+              онлайн контролировать все расходы</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 position--control">
+          <div class="advantage text-center">
+            <img src="./img/Adb-garanin.svg" alt="Гарантия" class="advantage-image">
+            <h3 class="advantage-title">Гарантия</h3>
+            <p class="advantage-description">Мы несем гарантийные обязательства за все выполненные работы</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Портфолио -->
+
+  <section class="portfolio section-offset">
+    <div class="container">
+      <h2 class="title">Портфолио</h2>
+      <div class="port-photos row no-gutters">
+        <div class="col px-1">
+          <a href="./img/Porfol-1.jpg" data-lightbox="gallery"><img class="portfolio-image" src="./img/Porfol-1.jpg"
+              alt=""></a>
+        </div>
+        <div class="col px-1">
+          <a href="./img/Porfol-2.jpg" data-lightbox="gallery"><img class="portfolio-image" src="./img/Porfol-2.jpg"
+              alt=""></a>
+        </div>
+        <div class="col px-1">
+          <a href="./img/Porfol-3.jpg" data-lightbox="gallery"><img class="portfolio-image" src="./img/Porfol-3.jpg"
+              alt=""></a>
+        </div>
+        <div class="col px-1">
+          <a href="./img/Porfol-4.jpg" data-lightbox="gallery"><img class="portfolio-image" src="./img/Porfol-4.jpg"
+              alt=""></a>
+        </div>
+      </div>
+
+      <div class="row justify-content-center px-4">
+        <div class="col-md-auto">
+          <button class="button-primary btn-reset">
+            <span class="btn-label-primary btn-port">ПОСМОТРЕТЬ ВСЁ</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Наши задачи -->
+
+  <section class="Tasks background--color">
+    <div class="container">
+      <h2 class="title title--top">НАШИ ЗАДАЧИ</h2>
+      <div class="row apaptive-card">
+        <div class="col-md-4">
+          <div class="card text-center">
+            <svg class="svg-task" width="132" height="136" viewBox="0 0 132 136" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M61.3053 0.0546722C53.3045 0.772659 47.6373 2.05255 41.3791 4.59673C26.908 10.4655 13.6491 23.1239 6.512 37.8895C3.1935 44.7728 1.26906 51.6092 0.284119 60.1314C-0.0947063 63.4716 -0.0947063 72.5557 0.284119 75.8959C1.05692 82.5295 2.31462 87.8051 4.43604 93.3773C10.1336 108.283 22.4227 121.941 36.7574 129.292C43.4399 132.711 50.0769 134.693 58.3504 135.707C61.5932 136.098 70.4122 136.098 73.655 135.707C83.5044 134.49 91.7022 131.696 99.4909 126.904C108.083 121.597 116.22 113.497 121.796 104.678C127.524 95.6406 130.57 86.6345 131.797 75.1155C132.1 72.2123 132.055 63.097 131.721 60.1314C130.964 53.5291 129.691 48.2222 127.569 42.65C121.872 27.744 109.583 14.0866 95.248 6.73506C88.611 3.33243 81.8831 1.33456 73.8065 0.351227C71.7912 0.101486 63.0782 -0.10141 61.3053 0.0546722ZM60.8658 18.9252C59.2748 22.2654 57.9716 25.1374 57.9716 25.3247C57.9716 25.9958 58.9263 30.4755 59.0929 30.5847C59.1839 30.6472 59.9263 30.7096 60.7446 30.7096H62.2145V49.0495V67.4049L60.093 71.2758C58.9263 73.3986 57.9716 75.2716 57.9716 75.4433C57.9716 75.6618 58.6232 76.1613 60.3203 77.2539L62.6539 78.7835H66.0482C68.4726 78.7835 69.4727 78.7367 69.6091 78.5962C69.7455 78.4557 69.791 77.1602 69.791 73.7107V68.997L74.6399 60.35C77.3068 55.5894 79.5647 51.6873 79.6404 51.6561C79.7162 51.6249 80.3374 51.9214 81.0193 52.3116C81.7012 52.7018 82.3376 53.0296 82.4286 53.0296C82.6862 53.0296 85.0955 50.86 85.0955 50.6415C85.0955 50.4386 85.3379 46.1931 85.4743 44.0548C85.7925 38.7167 86.0198 34.0966 85.9744 33.4411C85.9441 32.8635 85.8683 32.645 85.6713 32.6138C85.5349 32.5826 82.1558 34.7834 78.1554 37.4836L70.8971 42.4159L70.5789 44.086C70.3516 45.2254 70.291 45.8029 70.3971 45.9278C70.488 46.037 71.0941 46.4429 71.7608 46.8487C72.4276 47.2389 72.9731 47.6291 72.9731 47.7071C72.9731 47.8164 70.0334 53.1077 69.8516 53.3262C69.8213 53.3574 69.791 48.2847 69.791 42.0569V30.7096H71.276C72.0791 30.7096 72.8216 30.6472 72.9125 30.5847C73.0792 30.4755 74.0338 25.9958 74.0338 25.3247C74.0338 25.1374 72.7458 22.2654 71.1547 18.9565C69.5788 15.6319 68.2757 12.9004 68.2757 12.8848C68.2757 12.8223 69.3364 12.8848 71.6093 13.0877C77.3826 13.5872 84.2621 15.507 88.8838 17.9107C89.7778 18.3789 89.8081 18.4102 89.5959 18.7379C88.3382 20.7514 85.2167 27.1665 85.3379 27.4786C85.444 27.744 89.9445 30.4598 90.3081 30.4598C90.6566 30.4755 92.8538 27.2445 94.6722 24.076C95.2632 23.0459 95.7784 22.1718 95.7935 22.1406C95.8844 22.0469 97.324 23.0771 98.7938 24.2945C102.249 27.1353 105.491 30.4442 108.204 33.9093C109.355 35.3921 110.553 37.0934 110.553 37.2651C110.553 37.3119 110.098 37.6241 109.537 37.9519C108.022 38.8416 102.537 42.6188 102.461 42.8217C102.37 43.0558 105.097 48.0037 105.37 48.113C105.476 48.1442 106.901 47.4886 108.552 46.6458C111.25 45.2566 112.204 44.7415 113.689 43.7894L114.174 43.4929L114.644 44.445C116.417 48.0661 118.175 53.8569 118.872 58.4145C119.175 60.3812 119.493 63.2999 119.493 64.0491V64.4238H117.417C115.205 64.4394 109.916 64.7983 109.643 64.97C109.431 65.0949 109.431 70.9324 109.643 71.0573C109.916 71.229 115.205 71.588 117.417 71.6036H119.493V71.9782C119.493 72.7274 119.175 75.6462 118.872 77.6129C118.175 82.1549 116.417 87.9612 114.644 91.5668L114.189 92.5033L112.871 91.7072C110.901 90.521 105.537 87.8207 105.279 87.8676C104.991 87.93 102.158 92.9091 102.294 93.1276C102.461 93.4086 107.416 96.8112 109.007 97.7321C109.856 98.2316 110.553 98.6842 110.553 98.7466C110.553 98.9339 109.401 100.588 108.204 102.118C105.537 105.521 102.324 108.83 98.9605 111.608C97.6119 112.716 96.0057 113.902 95.8541 113.902C95.7935 113.902 95.3086 113.106 94.7631 112.139C93.7327 110.312 90.6566 105.552 90.3839 105.396C90.2021 105.271 85.444 108.112 85.3228 108.408C85.247 108.627 87.7624 113.918 89.0201 116.134C89.4444 116.899 89.7929 117.539 89.7929 117.586C89.7929 117.695 87.9746 118.585 86.338 119.287C81.8982 121.16 76.822 122.425 71.776 122.955C70.9123 123.033 70.0486 123.111 69.8516 123.111H69.4879V120.957C69.4879 118.663 69.1242 113.247 68.9575 112.982C68.8212 112.747 63.1842 112.747 63.0479 112.982C62.8812 113.247 62.5175 118.663 62.5175 120.957V123.111H62.1538C61.4265 123.111 58.5929 122.784 56.6836 122.471C52.2741 121.753 46.6372 119.943 43.1368 118.117L42.2276 117.648L43.2429 115.807C44.637 113.356 46.819 108.674 46.7129 108.408C46.6069 108.112 41.8034 105.271 41.6064 105.396C41.3488 105.552 38.2727 110.328 37.2423 112.139C36.6968 113.106 36.2119 113.902 36.1513 113.902C35.9998 113.902 34.3935 112.716 33.0449 111.608C29.681 108.83 26.4685 105.521 23.8016 102.118C22.6045 100.588 21.4529 98.9339 21.4529 98.7466C21.4529 98.6842 22.1499 98.2316 23.0136 97.7321C24.5895 96.8112 29.5446 93.4086 29.7113 93.1276C29.8476 92.9091 27.014 87.93 26.7261 87.8676C26.4685 87.8207 21.1044 90.521 19.1345 91.7072L17.8161 92.5033L17.3616 91.5668C15.5887 87.9612 13.8309 82.1549 13.1339 77.6129C12.8308 75.6462 12.5126 72.7274 12.5126 71.9782V71.6036H14.5279C16.6948 71.6036 21.9378 71.229 22.1954 71.0573C22.4227 70.9168 22.4227 65.1105 22.1954 64.97C21.9378 64.7983 16.6948 64.4238 14.5279 64.4238H12.5126V64.0491C12.5126 63.2999 12.8308 60.3812 13.1339 58.4145C13.8309 53.8569 15.5887 48.0661 17.3616 44.445C17.8919 43.368 17.6192 43.3368 19.786 44.6635C20.4982 45.0849 22.3317 46.0683 23.8773 46.8331C26.6352 48.2066 26.6807 48.2222 26.9231 47.8944C27.4686 47.2077 29.6658 43.0246 29.59 42.8217C29.484 42.5564 25.1047 39.5127 23.0439 38.2797C22.2105 37.7802 21.4983 37.3432 21.468 37.3276C21.3771 37.2339 22.3772 35.7511 23.5591 34.2371C26.317 30.6784 29.5294 27.3382 32.8934 24.5443C34.3329 23.358 35.9846 22.125 36.1513 22.125C36.1967 22.125 36.4998 22.5932 36.818 23.1707C37.6817 24.7316 41.3488 30.3818 41.5458 30.4598C41.773 30.5535 46.5766 27.744 46.6675 27.4786C46.7887 27.1509 43.6672 20.7514 42.4095 18.7379C42.1973 18.4102 42.2276 18.3789 43.1217 17.9107C47.7433 15.507 54.5773 13.6028 60.3961 13.0721C62.3357 12.9004 63.6237 12.8223 63.6994 12.8536C63.7298 12.8692 62.4417 15.6006 60.8658 18.9252Z"
+                fill="#0C626F" />
+            </svg>
+            <h3 class="Task-title">Сохранить время</h3>
+            <p class="task-text">Время — это самое ценное, что у нас есть. Его нужно ценить, хоть мы и порой относимся к
+              нему очень халатно.
+              Пока мы делаем ремонт – вы можете провести время с семьей и друзьями, заняться чем-то полезным или своими
+              делами. Распределяйте своё время правильно и с пользой.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+
+            <svg class="svg-task" width="137" height="137" viewBox="0 0 137 137" fill="none"
+              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+              <rect width="137" height="137" fill="url(#pattern0)" />
+              <defs>
+                <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                  <use xlink:href="#image0_135_27" transform="scale(0.00195312)" />
+                </pattern>
+                <image id="image0_135_27" width="512" height="512"
+                  xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAABN2lDQ1BBZG9iZSBSR0IgKDE5OTgpAAAokZWPv0rDUBSHvxtFxaFWCOLgcCdRUGzVwYxJW4ogWKtDkq1JQ5ViEm6uf/oQjm4dXNx9AidHwUHxCXwDxamDQ4QMBYvf9J3fORzOAaNi152GUYbzWKt205Gu58vZF2aYAoBOmKV2q3UAECdxxBjf7wiA10277jTG+38yH6ZKAyNguxtlIYgK0L/SqQYxBMygn2oQD4CpTto1EE9AqZf7G1AKcv8ASsr1fBBfgNlzPR+MOcAMcl8BTB1da4Bakg7UWe9Uy6plWdLuJkEkjweZjs4zuR+HiUoT1dFRF8jvA2AxH2w3HblWtay99X/+PRHX82Vun0cIQCw9F1lBeKEuf1UYO5PrYsdwGQ7vYXpUZLs3cLcBC7dFtlqF8hY8Dn8AwMZP/fNTP8gAAAAJcEhZcwAADsQAAA7EAZUrDhsAAATuaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/PiA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJBZG9iZSBYTVAgQ29yZSA2LjAtYzAwMiAxMTYuMTY0NzY2LCAyMDIxLzAyLzE5LTIzOjEwOjA3ICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgMjEuMiAoV2luZG93cykiIHhtcDpDcmVhdGVEYXRlPSIyMDIzLTA0LTI1VDExOjAxOjM0KzA1OjAwIiB4bXA6TW9kaWZ5RGF0ZT0iMjAyMy0wNC0yNlQyMjo0NToxNiswNTowMCIgeG1wOk1ldGFkYXRhRGF0ZT0iMjAyMy0wNC0yNlQyMjo0NToxNiswNTowMCIgZGM6Zm9ybWF0PSJpbWFnZS9wbmciIHBob3Rvc2hvcDpDb2xvck1vZGU9IjMiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NmM2NmFhOGMtOWIxYi0xOTRkLWExMDEtNWRkMTAzNjk5MTY2IiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjZjNjZhYThjLTliMWItMTk0ZC1hMTAxLTVkZDEwMzY5OTE2NiIgeG1wTU06T3JpZ2luYWxEb2N1bWVudElEPSJ4bXAuZGlkOjZjNjZhYThjLTliMWItMTk0ZC1hMTAxLTVkZDEwMzY5OTE2NiI+IDx4bXBNTTpIaXN0b3J5PiA8cmRmOlNlcT4gPHJkZjpsaSBzdEV2dDphY3Rpb249ImNyZWF0ZWQiIHN0RXZ0Omluc3RhbmNlSUQ9InhtcC5paWQ6NmM2NmFhOGMtOWIxYi0xOTRkLWExMDEtNWRkMTAzNjk5MTY2IiBzdEV2dDp3aGVuPSIyMDIzLTA0LTI1VDExOjAxOjM0KzA1OjAwIiBzdEV2dDpzb2Z0d2FyZUFnZW50PSJBZG9iZSBQaG90b3Nob3AgMjEuMiAoV2luZG93cykiLz4gPC9yZGY6U2VxPiA8L3htcE1NOkhpc3Rvcnk+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8++U2bBwAAJZpJREFUeJzt3VmS5DiSLVB6SX6+VfYGev9f3h/5WGHuYQMHDKqKc0RSWqQ6IowEFMAlSKN9/b//+d+NMr4P/Jmv7kcBQHj/mX0ANHNk8T/z5wAoTACo4eyiLgQALE4AyO/qYi4EACxMAMjt7iIuBAAsSgAAgAUJAHm1unq3CwCwIAEAABYkAOTU+qrdLgDAYgQA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" />
+              </defs>
+            </svg>
+
+            <h3 class="Task-title">Сберечь нервы</h3>
+            <p class="task-text">Ремонт — это много процессов, подрядчиков, согласований, несоответствий в проекте,
+              нарушение логистики
+              поставщика, срыв сроков выполнения работ подрядчиков, всё может идти не по плану, а значит – нервы,
+              переживания, стресс.
+
+              Ремонт — это тяжёлое испытание для семьи. Наша задача сберечь ваши нервы и избавить от «головной боли».
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <svg class="svg-task" width="90" height="137" viewBox="0 0 90 137" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M17.886 1.49106C14.5207 5.55506 18.7111 17.5191 26.3775 25.7331L30.944 30.6271L26.6968 33.4391C20.2485 37.7091 11.2921 46.5831 5.34175 54.6001L0 61.7971V94.2871V126.778L6.23569 129.823C16.8843 135.024 24.2444 136.264 44.897 136.338C56.0694 136.377 65.3611 135.927 68.439 135.197C75.849 133.438 84.2607 130.12 87.2169 127.79L89.794 125.758L89.6942 92.5801C89.6394 74.3331 89.2922 60.4911 88.921 61.8201L88.2466 64.2371L86.3838 61.3201C79.2302 50.1181 65.3182 36.6561 56.0544 31.9721L51.7473 29.7941L55.2772 25.8781C62.7421 17.5951 68.3572 1.80506 64.3803 0.276058C63.4265 -0.0909416 57.8273 0.800058 51.9359 2.25606C38.7511 5.51506 37.3304 5.52406 29.9313 2.40306C23.0741 -0.489942 19.7357 -0.741942 17.886 1.49106ZM41.6135 55.5271C41.2244 55.9171 40.9062 57.2901 40.9062 58.5781C40.9062 60.3761 39.9803 61.2911 36.9113 62.5211C25.0495 67.2781 24.856 79.9361 36.5681 84.9681L40.9062 86.8321V92.7011C40.9062 95.9291 40.6228 98.8541 40.2766 99.2011C39.1582 100.322 36.2 98.0481 34.0698 94.4291C32.9285 92.4901 31.3211 90.9031 30.499 90.9031C28.0028 90.9031 26.9731 94.0851 28.3889 97.4171C29.9772 101.152 32.4545 103.39 37.2017 105.378C40.3155 106.683 40.9062 107.411 40.9062 109.948C40.9062 113.35 43.1191 114.797 45.4088 112.892C46.225 112.214 46.8924 110.659 46.8924 109.439C46.8924 107.701 47.7944 106.949 51.0499 105.971C53.3366 105.284 56.4794 103.448 58.0339 101.89C64.1039 95.8061 60.612 85.6061 51.3821 82.4581L47.3913 81.0961L47.096 74.5001C46.9343 70.8721 47.0251 67.9031 47.2985 67.9031C49.2081 67.9031 52.6742 70.4811 54.0909 72.9551C55.0198 74.5761 56.4186 75.9031 57.1998 75.9031C59.3159 75.9031 61.1078 73.2581 60.4334 71.1301C59.3967 67.8561 53.8106 62.9811 50.3495 62.3301C47.4891 61.7931 46.9593 61.2451 46.6989 58.5521C46.4774 56.2701 45.8329 55.3231 44.3572 55.1111C43.2368 54.9501 42.0026 55.1381 41.6135 55.5271ZM0.446975 93.9031C0.446975 112.328 0.581666 119.866 0.746288 110.653C0.91091 101.44 0.91091 86.3661 0.746288 77.1531C0.581666 67.9401 0.446975 75.4781 0.446975 93.9031ZM35.4756 71.1261C33.4632 74.0051 33.5171 75.2261 35.747 77.2481C39.2799 80.4531 40.9062 79.3991 40.9062 73.9031C40.9062 69.6181 40.6288 68.9031 38.9676 68.9031C37.9011 68.9031 36.3297 69.9031 35.4756 71.1261ZM46.8924 93.8361C46.8924 99.2361 47.1119 99.9031 48.8878 99.9031C51.3911 99.9031 54.8741 96.5021 54.8741 94.0581C54.8741 91.9091 52.3379 89.4321 49.1373 88.4541C46.9812 87.7951 46.8924 88.0071 46.8924 93.8361Z"
+                fill="#0C626F" />
+            </svg>
+            <h3 class="Task-title">Сэкономить деньги</h3>
+            <p class="task-text">Как правило, большинство проблем начинается из-за непродуманных этапов ремонта,
+              неопытных мастеров,
+              переделок и желания сэкономить буквально на всём (даже на том, на чем не стоит).
+
+              Наш опыт в ремонте поможет вам сэкономить деньги, а нам получить еще одного счастливого и довольного
+              заказчика.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Сколько стоит мой ремонт -->
+
+  <section class="Repair-how background--repair">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-6 col-lg-6 image-repair-block">
+          <div class="image-repair"></div>
+        </div>
+        <div class="col-md-6 col-lg-6">
+          <h1 class="title-how">СКОЛЬКО СТОИТ МОЙ РЕМОНТ?</h1>
+          <p class="how-text">ОСТАВЬТЕ ЗАЯВКУ, НАШ СПЕЦИАЛИСТ РАСЧИТАЕТ СТОИМОСТЬ.</p>
+          <form class="form--setting" action="/your-target-url" method="POST">
+            <div class="input-group">
+              <input type="text" name="name" class="form-control" placeholder="Ваше имя">
+              <input type="text" name="phone" class="form-control" placeholder="Номер телефона">
+              <input type="text" name="area" class="form-control" placeholder="Площадь, м2">
+            </div>
+            <button type="submit" class="button-primary btn-reset btn--how">
+              <span class="btn-label-primary label--how">Заказать расчёт</span>
+            </button>
+          </form>
+          <p class="political-how">*Отправляя данную форму вы соглашаетесь с политикой конфиденциальности.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Услуги -->
+
+  <section class="Services title--top section-offset">
+    <div class="container">
+      <h2 class="title">НАШИ УСЛУГИ</h2>
+      <div class="row apaptive-card">
+        <div class="col-md-4 col-sm-6 adaptiv--margin">
+          <div class="card-service">
+            <img src="./img/Services-1.png" class="card-img img-fluid" alt="Image 1">
+            <div class="card-img-overlay">
+              <h3 class="card-title">Ремонт квартир</h3>
+              <p class="card-text">Наша компания предлагает комплексное решение для ремонта вашей квартиры. Мы
+                обеспечиваем высокий уровень исполнения работ, использование качественных материалов и строгое
+                соблюдение сроков.</p>
+              <div class="button-container">
+                <a href="./repair/index.html"> <button class="btn-reset btn-services">Узнать больше</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 adaptiv--margin">
+          <div class="card-service">
+            <img src="./img/Services-2.png" class="card-img img-fluid" alt="Image 2">
+            <div class="card-img-overlay">
+              <h3 class="card-title">Разработка проектов</h3>
+              <p class="card-text">Наш опытный коллектив дизайнеров и чертежников готов создать уникальный проект,
+                отвечающий всем вашим требованиям и пожеланиям. Мы учитываем каждую деталь, чтобы создать проект,
+                который будет радовать вас многие годы.</p>
+              <div class="button-container">
+                <a href="./Projects/index.html"> <button class="btn-reset btn-services">Узнать больше</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 adaptiv--margin">
+          <div class="card-service">
+            <img src="./img/Services-3.png" class="card-img img-fluid" alt="Image 3">
+            <div class="card-img-overlay">
+              <h3 class="card-title">Продажа и подбор чистовых материалов</h3>
+              <p class="card-text">Мы предлагаем широкий ассортимент чистовых материалов для ремонта вашей квартиры. Мы
+                поможем вам выбрать наилучшие материалы, соответствующие вашему вкусу и бюджету или вы можете приобрести
+                у нас материалы, которые вы уже подобрали.</p>
+              <div class="button-container">
+                <a href="./Materials/index.html"> <button class="btn-reset btn-services">Узнать больше</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Доп. услуги -->
+
+  <section class="services-adv section-offset">
+    <div class="container">
+      <h2 class="title-second text-center">Получите максимум комфорта при работе с нами</h2>
+      <div class="row sadv--row apaptive-card">
+        <div class="col-md-4 text-center sadv-col-md-4">
+          <div class="sadv-card">
+            <svg class="sadv__svg" width="114" height="116" viewBox="0 0 114 116" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M82.1497 24H6H0V30V110V116H6H90H96V110V47.5279L90 55.8412V110H6V30H77.8193L82.1497 24Z"
+                fill="#1C8493" />
+              <path d="M30 70.6941L50.3742 87L111 3" stroke="#1C8493" stroke-width="7" />
+            </svg>
+            <div class="sadv__title">
+              Удобство в закупке черновых <br> материалов
+            </div>
+            <p class="sadv-text">
+              С нами вам не придется тратить свое время на поиск и покупку строительных материалов, а также на поиск и
+              проверку добросовестного поставщика.
+              У нас уже есть проверенные поставщики качественных материалов, что позволяет нашим клиентам сэкономить
+              своё время и деньги
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 text-center sadv-col-md-4">
+          <div class="sadv-card">
+            <svg class="sadv__svg" width="114" height="116" viewBox="0 0 114 116" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M82.1497 24H6H0V30V110V116H6H90H96V110V47.5279L90 55.8412V110H6V30H77.8193L82.1497 24Z"
+                fill="#1C8493" />
+              <path d="M30 70.6941L50.3742 87L111 3" stroke="#1C8493" stroke-width="7" />
+            </svg>
+            <div class="sadv__title">
+              Бесперебойная <br> логистика
+            </div>
+            <p class="sadv-text">
+              В рамках нашего сервиса, мы полностью берем на себя вопросы контроля доставки материалов от поставщика до
+              объекта.
+              Вы можете быть уверены, что все необходимые материалы будут доставлены вовремя и в полном объёме, что
+              обеспечивает бесперебойность работы и соблюдение сроков.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4 text-center sadv-col-md-4">
+          <div class="sadv-card">
+            <svg class="sadv__svg" width="114" height="116" viewBox="0 0 114 116" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M82.1497 24H6H0V30V110V116H6H90H96V110V47.5279L90 55.8412V110H6V30H77.8193L82.1497 24Z"
+                fill="#1C8493" />
+              <path d="M30 70.6941L50.3742 87L111 3" stroke="#1C8493" stroke-width="7" />
+            </svg>
+            <div class="sadv__title">
+              Безопасное хранение <br> материалов
+            </div>
+            <p class="sadv-text">
+              Если вы купили чистовой материал у нас, мы обеспечиваем его безопасное хранение на нашем складе до момента
+              потребности данного материала на объекте.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Остались вопросы форма -->
+
+  <section class="Questions section-offset">
+    <h2 class="title-second text-center">
+      Остались вопросы – оставьте заявку, мы вам перезвоним! </h2>
+    <div class="container-md">
+      <div class="qestion-wrapper text-center">
+        <div class="row no-flex">
+          <div class="col-md-1 block-qestion">
+            <div class="qestion">
+              <span class="Qestion-text">Вопрос</span>
+            </div>
+          </div>
+          <div class="col-md-4 block-qform">
+            <div class="forma">
+              <form class="input-group form--setting" action="/your-target-url" method="POST">
+                <div class="form-group ">
+                  <label for="nameInput" class="form-title">Имя</label>
+                  <input type="text" id="nameInput" class="form-control form--margin">
+                </div>
+                <div class="form-group">
+                  <label for="phoneInput" class="form-title">Телефон *</label>
+                  <input type="text" id="phoneInput" class="form-control">
+                </div>
+              </form>
+              <div class="form-group">
+                <label for="text" class="form-title">Текст *</label>
+                <textarea class="form-control" id="text" rows="4" style="resize: none;"></textarea>
+                <p class="question-poltic">*Отправляя данную форму вы соглашаетесь
+                  с политикой конфиденциальности.
+                </p>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-md-1 btn--width d-flex justify-content-center align-items-center">
+            <button class="button-primary btn-reset">
+              <span class="btn btn-label-questions">ОСТАВИТЬ ЗАЯВКУ</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Футер -->
+
+  <footer class="footer container-fluid text-white footer--setting">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <h3 class="footer-title">КАРТА САЙТА</h3>
+          <ul class="list-footer list-reset">
+            <li class="list-item"><a href="../repair/index.html">Ремонт квартир</a></li>
+            <li class="list-item"><a href="../Projects/index.html">Технический проект</a></li>
+            <li class="list-item"><a href="../Projects/index.html">Дизайн-проект</a></li>
+            <li class="list-item"><a href="../Materials/index.html">Подбор Материалов</a></li>
+            <li class="list-item"><a href="../portfolio/index.html">Портфолио</a></li>
+            <li class="list-item"><a href="../price/index.html">Цены и оплата</a></li>
+            <li class="list-item"><a href="../contacts/index.html">Контакты</a></li>
+          </ul>
+          <p class="political-footer">ВСЕ ПРАВА ЗАЩИЩЕНЫ</p>
+          <p class="political-footer underline--footer">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</p>
+        </div>
+        <div class="col-md-4 text-center contacts">
+          <h3 class="footer-title">СВЯЗАТЬСЯ С НАМИ</h3>
+          <div class="d-flex align-items-center mb-2">
+            <a href="tel:+73452903000">
+              <img src="./img/phone_svg.svg" alt="телефон" class="footer-svg">
+              <span class="ml-2 contacts-text text-footer-size">+ 7 3452 903 000</span>
+            </a>
+          </div>
+          <div class="d-flex align-items-center mb-2">
+            <a href="mailto:903000@list.ru">
+              <img src="./img/mail-svg.svg" alt="телефон" class="footer-svg">
+              <span class="ml-2 contacts-text">903000@list.ru</span>
+            </a>
+          </div>
+          <div class="d-flex align-items-center mb-2">
+            <a href="tg://resolve?domain=sto1kvadrat"> <img src="./img/tg-svg.svg" alt="телефон" class="footer-svg">
+              <span class="ml-2 contacts-text">НАПИСАТЬ НАМ В TELEGRAM</span></a>
+          </div>
+          <div class="d-flex align-items-center mb-2">
+            <a href="https://vk.com/sto1kvadrat"><img src="./img/vk-svg.svg" alt="телефон" class="footer-svg">
+              <span class="ml-2 contacts-text">МЫ ВКОНТАКТЕ</span></a>
+          </div>
+          <div class="d-flex align-items-center mb-2">
+            <a href="https://dzen.ru/id/643f81d234b3d643c2fb3ae7"> <img src="./img/dzen.svg" alt="телефон"
+                class="footer-svg">
+              <span class="ml-2 contacts-text">МЫ В ЯНДЕКС ДЗЕН</span></a>
+          </div>
+          <a href="./index.html">
+            <img class="logo-footer" src="./img/logo-footer.svg" alt=""> </a>
+        </div>
+        <div class="col-md-4">
+          <div class="map">
+            <div id="map" class="yandex-map"></div>
+          </div>
+          <p class="adress text-center">г. Тюмень, ул. Димитрова, 35</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmIvYmdUksdQRVvoxMfE"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-Os/xCg7MxJjzYNP1fPQbGFuYQbIu08j6gU2avA/E78z9jp180U1rXw6j4pO5fraX"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+  <script src="./js/maps.js"></script>
+  <script src="js/modal.js"></script>
+
+
+</body>
+
+</html>

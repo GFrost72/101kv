@@ -1,0 +1,133 @@
+.contacts-block {
+  max-width: 390px;
+}
+
+.second-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 17px;
+  margin-bottom: 35px;
+}
+
+.big_text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.small_text {
+  font-weight: 400;
+  font-size: 20px;
+  color: #9C9C9C;
+  line-height: 23px;
+  margin-bottom: 22px;
+}
+
+.margin--bottom {
+  margin-bottom: 13px;
+}
+
+.text__link {
+  color: #5FBCFF;
+  text-decoration-line: underline;
+}
+
+.political {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  max-width: 450px;
+  margin-bottom: 80px;
+}
+
+.link_svg {
+  margin-right: 20px;
+}
+
+.telegram-link-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.contact {
+  margin-bottom: 50px;
+}
+
+.arow {
+  margin-bottom: 15px;
+}
+
+.block__image:first-child {
+  margin-right: 25px;
+}
+
+.image-block {
+  margin-bottom: 80px;
+}
+
+.form-title {
+  margin-left: 200px;
+}
+
+.form-block {
+  margin-left: 500px;
+}
+
+
+@media (max-width: 770px) {
+  .form-block {
+    margin-left: 0px;
+  }
+  .form-title {
+    margin-left: 0px;
+  }
+}
+
+.form-up {
+  max-width: 50%;
+  background: rgba(217, 217, 217, 0.69);
+  border: 1px solid #000000;
+  box-shadow: 5px 4px 6px rgba(0, 0, 0, 0.25);
+  min-width: 300px;
+  min-height: 50px;
+  border-radius: 0px;
+  padding: 10px;
+}
+
+.form-up:first-child {
+  margin-bottom: 20px;
+}
+
+.form-up:last-child {
+  margin-bottom: 40px;
+}
+
+.button-primary {
+  margin-bottom: 40px;
+}
+
+.title-form {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.btn--width {
+  width: 45%;
+}
+
+.qestion-wrapper {
+  background-color: #CACACA;
+  min-width: 1273px;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+
+@media (max-width: 770px) {
+  .qestion-wrapper {
+    min-width: auto;
+  }
+ }

@@ -1,0 +1,166 @@
+.card-service {
+  position: relative;
+  margin-bottom: 30px;
+  height: 100%;
+}
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 62px 58px 50px 83px;
+  background: rgba(53, 45, 45, 0.45);
+  color: #fff;
+}
+
+@media (max-width: 1199px) {
+  .card-img-overlay {
+    font-size: 28px;
+    line-height: 36px;
+    padding: 28px 33px 28px 28px;
+  }
+}
+
+@media (max-width: 980px) {
+  .card-img-overlay {
+    padding: 19px 16px 11px 24px;
+    border-radius: 20px;
+  }
+}
+
+
+.card-title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1640px) {
+  .card-title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .card-title {
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 980px) {
+  .card-title {
+    font-size: 17px;
+    line-height: 22px;
+    margin-bottom: 13px;
+  }
+}
+
+@media (max-width: 450px) {
+  .card-title {
+    font-size: 34px;
+    line-height: 36px;
+    margin-bottom: 13px;
+  }
+}
+
+.card-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 46px;
+  width: 85%;
+}
+
+@media (max-width: 1640px) {
+  .card-text {
+    font-size: 29px;
+    line-height: 45px;
+}
+  }
+
+  @media (max-width: 1399px) {
+    .card-text {
+      font-size: 18px;
+      line-height: 24px;
+  }
+    }
+
+    @media (max-width: 980px) {
+      .card-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+      }
+
+      @media (max-width: 450px) {
+        .card-text {
+          font-size: 24px;
+          line-height: 41px;
+          margin-bottom: 13px;
+        }
+      }
+
+.button-container {
+  text-align: center;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 20px; /* Отступ снизу */
+  right: 20px; /* Отступ справа */
+  padding-bottom: 40px;
+  padding-right: 30px;
+}
+
+@media (max-width: 980px) {
+  .button-container {
+    padding-bottom: 11px;
+    padding-right: 3px;
+}
+  }
+
+.card-img {
+  height: 100%;
+}
+
+/* Media queries for vertical placement of cards */
+
+@media (max-width: 1750px) {
+  .card-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1500px) {
+  .card-text {
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-md-4 {
+    width: 100%;
+  }
+
+  .adaptiv--margin {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .apaptive-card {
+    justify-content: center;
+  }
+}

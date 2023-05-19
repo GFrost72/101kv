@@ -1,0 +1,30 @@
+.port-photos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.port-photos .col {
+  flex: 0 0 calc(25% - 2px); /* 4 колонки с минимальным отступом в 1 пиксель */
+  padding: 1px;
+}
+
+.portfolio-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px; /* Регулируйте значение отступа сверху в зависимости от ваших потребностей */
+}
+
+@media (max-width: 450px) {
+  .port-photos {
+    margin-bottom: 30px;
+  }
+}
+

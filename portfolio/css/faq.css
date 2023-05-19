@@ -1,0 +1,107 @@
+.card {
+  border-bottom: 1px solid #000;
+  transform: rotate(-0.09deg);
+  margin-bottom: 30px;
+  --bs-card-border-color: none;
+  background-color: none;
+  border-bottom: 1px solid black;
+}
+
+
+.card:last-child {
+  margin-bottom: 120px;
+}
+
+.card-header {
+  background: #fff;
+}
+
+.card .btn-link {
+  color: #000;
+  text-decoration: none;
+}
+
+.card .btn-link:after {
+  content: '\f055';
+  /* Это код символа "+" в FontAwesome */
+  font-family: 'FontAwesome';
+  float: right;
+  background-color: #1C8493;
+  border-radius: 50%;
+  padding: 10px;
+  transition: all 0.25s;
+}
+
+.hide {
+  display: none;
+}
+
+.fade {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+
+.faq-question {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 21px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* для того, чтобы элементы растягивались на всю ширину */
+}
+
+@media (max-width: 1250px) {
+  .faq-question {
+    font-size: 26px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 760px) {
+  .faq-question {
+    font-size: 18px;
+    line-height: 33px;
+  }
+}
+
+@media (max-width: 450px) {
+  .faq-question {
+    font-size: 16px;
+    line-height: 33px;
+  }
+}
+
+
+.fa-plus-circle:before {
+  color: #1C8493;
+}
+
+.faq-icon {
+  background-color: #1C8493;
+  border-radius: 50%;
+  transition: opacity 0.5s ease-in-out;
+  /* анимируем opacity вместо всего */
+  opacity: 1;
+  display: none;
+  /* по умолчанию иконки скрыты */
+}
+
+.faq-icon.show {
+  display: block;
+  /* иконки со show будут видны */
+}
+
+
+.faq-answer {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 42px;
+  padding: 30px;
+}
+
+.tittle--faq {
+  margin-bottom: 110px;
+}
