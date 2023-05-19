@@ -1,0 +1,18 @@
+.padding-left {
+  padding-left: 60px;
+}
+
+.image-container {
+  padding: 45px 0;
+  height: 605px;
+  width: 495px;
+}
+.image-container img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.block-price {
+  margin-bottom: 60px;
+}

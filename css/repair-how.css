@@ -1,0 +1,105 @@
+.background--repair {
+  background-color: #1C8493;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+.image-repair {
+  background-image: url(../img/Photo-how.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 446px;
+  border-radius: 34px;
+}
+
+@media (max-width: 760px){
+  .image-repair {
+      width: auto;
+      margin-bottom: 64px;
+  }
+  }
+
+.image-repair-block {
+  padding-top: 27px;
+}
+
+.title-how {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 42px;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+  color: white;
+}
+
+.how-text {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: white;
+  width: 850px;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 760px){
+  .how-text {
+      width: auto;
+  }
+  }
+
+input[type="text"]::placeholder {
+  color: #9C9C9C;
+  /* Здесь можно задать желаемый цвет плейсхолдера */
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 42px;
+}
+
+.form--margin {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  padding: 10px 12px;
+  margin-right: 22px;
+  margin-bottom: 46px;
+}
+
+
+.political-how {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  color: var(--white-color);
+}
+
+@media (max-width: 450px){
+  .image-repair {
+    margin-bottom: 10px;
+  }
+
+  .title-how {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 20px;
+  }
+
+  .how-text {
+    line-height: 35px;
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+
+  .background--repair {
+    padding: 0;
+  }
+
+  .political-how {
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 10px;
+  }
+  }
+

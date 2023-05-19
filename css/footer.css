@@ -1,0 +1,159 @@
+.footer {
+  background-color: #0C626F;
+  overflow: auto;
+}
+
+.footer-svg {
+  margin-right: 27px;
+}
+
+.footer--setting {
+  padding: 65px 65px 10px 65px;
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 24px;
+  font-family: 'Vollkorn SC';
+  margin-bottom: 40px;
+}
+
+.list-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 17px;
+  margin-bottom: 30px;
+  transition: color 0.2s ease-in-out 0s;
+}
+
+.list-item:hover {
+  color: var(--dark-color);
+}
+
+.list-item:last-child {
+  margin-bottom: 165px;
+}
+
+.political-footer {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  width: 285px;
+}
+
+.underline--footer {
+  text-decoration: underline solid;
+}
+
+.contacts-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  transition: color 0.2s ease-in-out 0s;
+}
+
+.contacts-text:hover {
+  color: var(--dark-color);
+  transition: color 0.2s ease-in-out 0s;
+}
+
+.contacts-text:active {
+  color: white;
+  }
+
+
+.mb-2 {
+  padding-left: 72px;
+}
+
+.adress {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+ }
+
+.logo-footer {
+  padding-left: 161px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo-footer:hover {
+  transform: scale(1.1);
+}
+
+.logo-footer:active {
+  transform: rotate(10deg);
+}
+
+.text--center {
+  text-align: center;
+}
+
+
+.text-footer-size {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 15px;
+}
+
+@media (max-width: 760px){
+  .text--center {
+      text-align: left;
+  }
+  .footer {
+    padding: 36px 65px 10px 0px;
+  }
+  .underline--footer {
+    margin-bottom: 62px;
+  }
+  .mb-2 {
+    padding-left: 0px;
+  }
+  .logo-footer {
+    padding-left: 0px;
+  }
+  .map {
+    width: 600px;
+  }
+  .question-poltic {
+    margin-bottom: 30px;
+  }
+  .list-item:last-child {
+    margin-bottom: 35px;
+  }
+  }
+
+  @media (max-width: 450px){
+    .footer {
+      padding: 36px 11px;
+    }
+    .underline--footer {
+      margin-bottom: 50px;
+    }
+    .contacts-text {
+      font-size: 16px;
+      line-height: 16px;
+    }
+    .logo-footer {
+      margin-bottom: 20px;
+    }
+    .adress {
+      padding-left: 25px;
+      text-align: center;
+    }
+    .footer-svg {
+      width: 72px;
+      height: 47px;
+    }
+
+    .footer-title {
+      font-size: 29px;
+    line-height: 14px;
+    margin-bottom: 30px;
+    }
+
+    .adress {
+      font-size: 20px;
+    }
+ }

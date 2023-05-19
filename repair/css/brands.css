@@ -1,0 +1,25 @@
+.brands-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brands-list .col-lg-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.brands-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 34px;
+  max-width: 865px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.brands-list:last-child {
+  margin-bottom: 88px;
+}

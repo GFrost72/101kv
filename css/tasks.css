@@ -1,0 +1,66 @@
+.svg-task {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 27px;
+}
+
+
+@media (max-width: 450px){
+  .svg-task {
+    margin-bottom: 0px;
+    width: 18%;
+  }
+  }
+
+
+.Task-title {
+  margin-bottom: 40px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 0.36px;
+}
+
+@media (max-width: 450px){
+  .Task-title  {
+    font-size: 22px;
+    line-height: 14px;
+    margin-bottom: 14px;
+  }
+  }
+
+.task-text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+}
+
+@media (max-width: 450px){
+  .task-text  {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .task-text:last-child {
+    margin-bottom: 20px;
+  }
+  }
+
+
+
+.card {
+  background-color: #F5F5F7;
+  border: none;
+  padding-bottom: 78px;
+}
+
+@media (max-width: 450px){
+  .card  {
+
+    padding-bottom: 0px;
+  }
+  }
+
+
+
+
