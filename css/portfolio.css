@@ -26,5 +26,10 @@
   .port-photos {
     margin-bottom: 30px;
   }
+
+  .adaptive-center {
+    width: 70%;
+  }
 }
+
 

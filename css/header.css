@@ -1,14 +1,21 @@
+
 .header {
   padding-top: 40px;
   margin-bottom: 19px;
   display: flex;
   align-items:center;
   justify-content: center;
+  position: fixed;
+  z-index: 1000;
+  background-color: #4744449c;
+  padding-bottom: 27px;
+  width: 100vw;
 }
 
 .logo {
+  transform: translateY(-14px);
   margin-right: 11px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.1s ease-in-out;
 }
 
 .logo:hover {
@@ -22,21 +29,17 @@
 .navigation {
   display: flex;
   justify-content: space-between;
-  }
 
-.nav-active {
-  /* другие стили */
-  transform: translateX(0%);
 }
 
 
 .nav_link {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   line-height: 17px;
   color: var(--white-color);
   margin-right: 39px;
-  transition: color 0.3s ease-in-out;
+  transition: color 0.1s ease-in-out;
 }
 
 .nav_link:hover,
@@ -69,6 +72,12 @@
    .header {
     justify-content: space-around;
     padding-top: 0px;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
   }
 }
 
@@ -79,7 +88,9 @@
   }
 
   .navigation a {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    line-height: 21px;
   }
 }
 
@@ -108,8 +119,8 @@
   cursor: pointer;
   z-index: 10;
   position: absolute;
-  top: 15px;
-  right: 15px;
+  top: 39px;
+  right: 28px;
 }
 
 .burger-menu div {
@@ -137,7 +148,7 @@
   top: 0;
   right: 0;
   width: 50%;
-  height: 20%;
+  height: 45%;
   padding: 20px;
   background-color: #ffffff;
   z-index: 999;
@@ -169,5 +180,20 @@
 
 .burger-toggle div {
   background-color: #000; /* Черный цвет */
+}
+
+@media screen and (max-width: 450px) {
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+
+    /* Применение flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
 

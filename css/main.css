@@ -99,8 +99,8 @@ p {
   .title {
     padding-bottom: 9px;
     margin-bottom: 26px;
-    font-size: 20px;
-    line-height: 10px;
+    font-size: 28px;
+    line-height: 33px;
   }
   }
 
@@ -157,8 +157,13 @@ p {
 
   @media (max-width: 450px){
     .title-second {
-      font-size: 28px;
-      margin-bottom: 28px;
-    }
+      font-size: 22px;
+      margin-bottom: 18px;
+        }
     }
 
+    @media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1637px;
+    }
+    }

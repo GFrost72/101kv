@@ -1,3 +1,5 @@
+
+
 .wrapper-hero {
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,6 +54,7 @@
   max-width: 1206px;
 }
 
+
 .hero-text:last-child {
   margin-bottom: 0;
 }
@@ -64,4 +67,27 @@
 
 .title--margin {
   margin-bottom: 35px;
+}
+
+@media (max-width: 750px) {
+  .wrapper-hero{
+    padding: 21px 17px 29px 15px;
+    background-position: right;
+}
+
+  .hero-title {
+    font-size: 25px;
+    line-height: 34px;
+    margin-bottom: 20px;
+  }
+
+  .hero-text {
+    font-size: 20px;
+    line-height: 35px;
+    margin-bottom: 17px;
+  }
+}
+
+.hero {
+  padding-top: 120px;
 }

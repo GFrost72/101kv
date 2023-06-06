@@ -1,7 +1,9 @@
 .price {
   background-color: #F5F5F7;
   padding-bottom: 50px;
-}
+  padding-top: 150px;
+  }
+
 
 .padding-top {
   padding-top: 48px;
@@ -118,4 +120,54 @@ height: 55px;
 
 .cost-table {
   margin-bottom: 40px;
+}
+
+.block-price {
+  justify-content: end;
+}
+
+@media (max-width: 750px) {
+  .page {
+    padding-top: 120px;
+  }
+}
+
+@media (max-width: 450px) {
+  .padding-top {
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .title-second {
+    padding-bottom: 11px;
+    font-size: 24px;
+  }
+
+  .card-wrapper {
+    margin-bottom: 10px;
+}
+
+.title-second {
+  padding-bottom: 10px;
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 31px;
+}
+
+.price-text {
+  font-size: 16px;
+  line-height: 34px;
+  margin-bottom: 15px;
+}
+.union::before {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.price-text-second {
+  font-size: 20px;
+  line-height: 38px;
+  margin-bottom: 18px;
+}
 }

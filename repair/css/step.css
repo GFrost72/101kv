@@ -1,5 +1,7 @@
 .steps {
   background-color: #D1D1D1;
+  padding-bottom: 85px;
+  margin-bottom: 90px;
 }
 
 .padding-top {
@@ -7,9 +9,9 @@
 }
 
 .wrapper {
+  position: relative;
   background-color: #D1D1D1;
-  padding-bottom: 85px;
-    margin-bottom: 98px;
+
 }
 
 .steps-wrapper {
@@ -17,7 +19,17 @@
   background-size: cover;
   background-position: center;
   padding: 29px 297px 81px 84px;
- }
+}
+
+.wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
 
 .item {
   display: flex;
@@ -31,6 +43,9 @@
   line-height: 36px;
   font-family: 'Rowdies';
   margin-right: 31px;
+  z-index: 1;
+  max-width: 63px;
+  margin-right: 39px;
 }
 
 .line {
@@ -39,6 +54,7 @@
   background-color: #1C8493;
   position: relative;
   margin-right: 40px;
+  z-index: 1;
 }
 
 .line::after {
@@ -106,4 +122,20 @@
     font-size: 16px;
     line-height: 22px;
   }
+}
+
+
+@media (max-width: 750px) {
+  .content__text {
+    margin-bottom: 20px;
+  }
+
+  .steps {
+    padding-bottom: 61px;
+    margin-bottom: 21px;
+  }
+}
+
+.px-4 {
+  justify-content: right;
 }

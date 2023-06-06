@@ -11,13 +11,20 @@
   background-color: rgba(0,0,0,0.4);
 }
 
+.modal-form {
+  display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
 .modal-content {
   background-color: #32818c;
   margin: 15% auto;
   padding: 0px 3px 14px 15px;
   color: white;
   border: 1px solid #888;
-  width: 15%;
+  width: 25%;
+  height: 30%;
 }
 
 .modal-header {
@@ -29,14 +36,21 @@
 
 @media (max-width: 760px){
   .modal-content {
-    width: 32%;
+    width: 55%;
     margin: 68% auto;
+    height: 45%;
   }
+  .modal-form label {
+    font-size: 18px;
+}
   }
 
 .modal-input {
   margin-bottom: 15px;
+  border-radius: 15px;
 }
+
+
 
 .btn-modal {
   max-width: 150px;
@@ -44,7 +58,7 @@
 
 .close {
   text-align: end;
-    FONT-SIZE: 28px;
+  FONT-SIZE: 28px;
 
 }
 
@@ -52,3 +66,44 @@
   font-size: 26px;
   font-weight: 500;
 }
+
+.modal-content input {
+  display: block;
+  border-radius: 15px;
+  height: 35px;
+}
+
+.modal-content:last-child input {
+ margin-bottom: 20px;
+}
+
+.modal-form label {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+
+
+@media (max-width: 450px){
+  .modal-content {
+    width: 55%;
+    margin: 68% auto;
+    height: 45%;
+  }
+  .modal-form label {
+    font-size: 18px;
+}
+.modal-title {
+  font-size: 18px;
+}
+
+.modal-content {
+  padding: 0;
+  height: 34%;
+}
+
+.modal-form {
+  padding: 7px;
+}
+
+  }

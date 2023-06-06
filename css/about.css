@@ -2,12 +2,17 @@
   padding: 0px 213px;
 }
 
+.underlined {
+  border-bottom: 4px solid currentColor;
+  padding-bottom: 1px;
+}
+
 .about-title {
   font-family: 'Vollkorn SC';
   font-size: 32px;
   font-weight: 700;
   line-height: 36px;
-  margin-bottom: 130px;
+  margin-bottom: 58px;
   min-width: 800px;
 }
 
@@ -39,6 +44,10 @@
   .about--setting {
     padding: 0;
   }
+
+  .about-image {
+    transform: none;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -55,6 +64,8 @@
     min-width: auto;
   }
 
+
+
   .about-text {
     font-size: 18px;
     line-height: 26px;
@@ -68,4 +79,10 @@
     min-width: auto;
     transform: none;
   }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1500px){
+.container {
+    max-width: 1260px;
+}
 }

@@ -79,6 +79,7 @@
   .form-block {
     margin-left: 0px;
   }
+
   .form-title {
     margin-left: 0px;
   }
@@ -125,9 +126,76 @@
   border-radius: 20px;
 }
 
+.title-second {
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
 
 @media (max-width: 770px) {
   .qestion-wrapper {
     min-width: auto;
   }
- }
+}
+
+@media (max-width: 750px) {
+  .page {
+    padding-top: 120px;
+  }
+}
+
+@media (max-width: 450px) {
+  .big_text {
+    font-size: 22px;
+  }
+
+  .political {
+    margin-bottom: 19px;
+  }
+
+  .telegram-link-text {
+    font-size: 16px;
+  }
+
+  .contact {
+    margin-bottom: 20px;
+  }
+
+  .block__image {
+    padding: 0px 25px;
+    margin-bottom: 20px;
+  }
+
+  .arow {
+    height: 59px;
+  }
+
+  .image-block {
+    margin-bottom: 20px;
+  }
+
+  .btn--width {
+    width: 71%;
+  }
+
+  .qestion-wrapper {
+    padding: 14px;
+  }
+
+  .form-control {
+    margin-bottom: 15px;
+  }
+
+  .block__image:first-child {
+    margin-right: 0px;
+}
+
+.title-second {
+  font-size: 24px;
+}
+}
+
+.contact {
+  padding-top: 200px;
+}
