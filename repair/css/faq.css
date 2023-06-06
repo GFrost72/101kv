@@ -53,26 +53,7 @@
   /* для того, чтобы элементы растягивались на всю ширину */
 }
 
-@media (max-width: 1250px) {
-  .faq-question {
-    font-size: 26px;
-    line-height: 25px;
-  }
-}
 
-@media (max-width: 760px) {
-  .faq-question {
-    font-size: 18px;
-    line-height: 33px;
-  }
-}
-
-@media (max-width: 450px) {
-  .faq-question {
-    font-size: 16px;
-    line-height: 33px;
-  }
-}
 
 
 .fa-plus-circle:before {
@@ -105,3 +86,48 @@
 .tittle--faq {
   margin-bottom: 110px;
 }
+
+@media (max-width: 1250px) {
+  .faq-question {
+    font-size: 26px;
+    line-height: 25px;
+  }
+}
+
+@media (max-width: 760px) {
+  .faq-question {
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+
+@media (max-width: 450px) {
+  .faq-question {
+    font-size: 20px;
+    line-height: 33px;
+    text-align: inherit;
+  }
+
+  .tittle--faq {
+    margin-bottom: 20px;
+  }
+
+  .faq-icon {
+    width: 17%;
+  }
+
+  .faq-answer {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .card:last-child{
+    margin-bottom: 60px;
+  }
+
+  .btn--margin {
+    margin-bottom: 20px;
+  }
+}
+
+

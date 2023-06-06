@@ -23,3 +23,24 @@
 .brands-list:last-child {
   margin-bottom: 88px;
 }
+
+@media (max-width: 750px) {
+  .brands-title {
+    margin-bottom: 21px;
+    font-size: 19px;
+  }
+
+  .brands-list:last-child {
+    margin-bottom: 0px;
+    align-items: end;
+  }
+
+  .brands-list .col-lg-3 {
+    width: 46%;
+    margin-bottom: 48px;
+  }
+
+  .brands-block {
+    display: flex;
+  }
+ }

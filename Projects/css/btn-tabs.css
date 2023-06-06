@@ -1,0 +1,83 @@
+.tab-btn-one {
+  font-weight: 400;
+  background: #1C8493;
+  border-radius: 20px;
+  font-size: 40px;
+  line-height: 17px;
+  padding: 20px;
+  color: rgba(255, 255, 255, 0.47);
+}
+
+@media (max-width: 1400px) {
+  .tab-btn-one {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+}
+
+.tab-btn-one.active {
+  background: #1C8493;
+  color: #fff;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.tab-btn-two {
+  background: none;
+  border: none;
+  font-size: 40px;
+  line-height: 17px;
+  color: #000;
+}
+
+.tab-btn-one:not(.active) {
+  background: none;
+  color: #000;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.tab-btn-two:not(.active) {
+  background: none;
+  color: #000;
+  border-radius: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+
+@media (max-width: 1400px) {
+  .tab-btn-two {
+    font-size: 28px;
+  }
+}
+
+.tab-btn-two:hover {
+  text-decoration: none;
+}
+
+.tab-btn-two.active {
+  background: #1C8493;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 30px;
+  PADDING: 20PX;
+}
+
+@media (max-width: 450px) {
+  .tab-btn-one.active {
+    font-size: 19px;
+  }
+
+  .tab-btn-two.active {
+    font-size: 20px;
+  }
+
+  .tab-btn-one:not(.active) {
+    font-size: 19px;
+  }
+
+  .tab-btn-two:not(.active) {
+    font-size: 22px;
+  }
+}

@@ -27,9 +27,10 @@
 
 @media (max-width: 980px) {
   .card-img-overlay {
-    padding: 19px 16px 11px 24px;
+    padding: 48px 43px 24px 36px;
     border-radius: 20px;
-  }
+    background: rgba(53, 45, 45, 0.55);
+}
 }
 
 
@@ -92,8 +93,16 @@
 
   @media (max-width: 1399px) {
     .card-text {
-      font-size: 18px;
-      line-height: 24px;
+      font-size: 21px;
+      line-height: 30px;
+  }
+  .card-img-overlay {
+    padding: 29px 34px 29px 37px;
+  }
+
+  .card-title {
+    font-size: 27px;
+    line-height: 31px;
   }
     }
 
@@ -106,8 +115,8 @@
 
       @media (max-width: 450px) {
         .card-text {
-          font-size: 24px;
-          line-height: 41px;
+          font-size: 22px;
+          line-height: 36px;
           margin-bottom: 13px;
         }
       }

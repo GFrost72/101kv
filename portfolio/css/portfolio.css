@@ -3,9 +3,7 @@
 }
 
 .image-container {
-  padding: 45px 0;
-  height: 605px;
-  width: 495px;
+  padding: 45px 31px;
 }
 .image-container img {
   object-fit: cover;
@@ -15,4 +13,38 @@
 
 .block-price {
   margin-bottom: 60px;
+}
+
+@media (max-width: 750px) {
+  .page {
+    padding-top: 120px;
+  }
+}
+
+.block-price {
+  justify-content: end;
+}
+
+@media (max-width: 450px) {
+  .padding-left {
+    padding-left: 10px;
+  }
+
+  .padding-top {
+    padding-top: 0px;
+  }
+
+  .image-container {
+    padding: 7px 9px;
+}
+
+.block-price {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.btn-label-primary {
+  font-size: 18px;
+  line-height: 20px;
+  }
 }

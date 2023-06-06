@@ -3,6 +3,7 @@
   padding-bottom: 50px;
 }
 
+
 .advantages {
   background-color: #F5F5F7;
 }
@@ -150,3 +151,59 @@
   justify-content: end;
 }
 
+@media (max-width: 750px) {
+  .page {
+    padding-top: 120px;
+  }
+
+  .material {
+    padding-bottom: 10px;
+  }
+
+  .material-text {
+    font-size: 16px;
+    line-height: 34px;
+    margin-bottom: 15px;
+  }
+
+  .padding-top {
+    padding-top: 10px;
+  }
+
+  .image-materials {
+    margin-bottom: 20px;
+  }
+
+  .union::before {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+  .wrapper-help {
+    padding: 16px;
+    margin-bottom: 25px;
+  }
+
+  .card-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .card__text {
+    font-size: 24px;
+    line-height: 34px;
+}
+
+  .margin--bottom {
+    margin-bottom: 30px;
+  }
+
+  .btn-label-primary {
+    font-size: 18px;
+    line-height: 20px;
+}
+}
+
+.block-price {
+  justify-content: end;
+}

@@ -60,10 +60,12 @@
           <div></div>
         </div>
         <button class="header__button btn-reset">
-          <a href="tel:+73452903000">
+          <a class="d-flex" href="tel:+73452903000">
+            <span class="icon"></span>
             <span class="btn-label">+7 (3452) 903-000</span>
           </a>
         </button>
+
       </header>
 
 
@@ -90,13 +92,13 @@
                     <span class="modal-title">Оставить заявку</span>
                     <span class="close">&times;</span>
                   </div>
-                  <form class="modal-form">
+                  <form class="modal-form" action="form.php" method="POST">
                     <label for="name">Ваше имя:</label><br>
                     <input class="modal-input" type="text" id="name" name="name"><br>
                     <label for="phone">Ваш номер телефона:</label><br>
                     <input class="modal-input" type="tel" id="phone" name="phone">
+                    <input type="submit" value="Отправить">
                   </form>
-                  <input class="btn-modal" type="submit" value="Отправить">
                 </div>
               </div>
             </div>
@@ -137,14 +139,14 @@
       <div class="row">
         <div class="col-12 col-md-3">
           <div class="advantage text-center ">
-            <img src="./img/Adb-Phone.svg" alt="консультации" class="advantage-image">
+            <img src="./img/1.jpg" alt="консультации" class="advantage-image">
             <h3 class="advantage-title">Консультация</h3>
             <p class="advantage-description">Вы можете позвонить или написать нам для бесплатной консультации</p>
           </div>
         </div>
         <div class="col-12 col-md-3">
           <div class="advantage text-center">
-            <img src="/img/Adb-Contract.svg" alt="Работа по договору" class="advantage-image">
+            <img src="./img/2.jpg" alt="Работа по договору" class="advantage-image">
             <h3 class="advantage-title">Работа по договору</h3>
             <p class="advantage-description">Мы несем юридическую ответственность за соблюдение договорных условий и
               сроков</p>
@@ -152,7 +154,7 @@
         </div>
         <div class="col-12 col-md-3">
           <div class="advantage text-center">
-            <img src="./img/Adb-Price.svg" alt="Фиксированная стоимость" class="advantage-image">
+            <img src="./img/3.jpg" alt="Фиксированная стоимость" class="advantage-image">
             <h3 class="advantage-title">Фиксированная стоимость</h3>
             <p class="advantage-description">Мы прилагаем к договору смету с итоговой суммой, которая не изменится в
               процессе ремонта</p>
@@ -160,7 +162,7 @@
         </div>
         <div class="col-12 col-md-3">
           <div class="advantage text-center">
-            <img src="./img/Adb-Quality.svg" alt="Качество" class="advantage-image">
+            <img src="./img/4.jpg" alt="Качество" class="advantage-image">
             <h3 class="advantage-title">Качество для нас в приоритете </h3>
             <p class="advantage-description">Наши опытные специалисты выполняют все работы в соответствии со
               строительными нормами и правилами</p>
@@ -171,7 +173,7 @@
       <div class="row margin--top">
         <div class="col-12 col-md-3">
           <div class="advantage text-center">
-            <img src="./img/Adb-ContrQual.svg" alt="Контроль" class="advantage-image">
+            <img src="./img/5.jpg" alt="Контроль" class="advantage-image">
             <h3 class="advantage-title">Строгий контроль качества</h3>
             <p class="advantage-description">Мы проводим тщательный контроль каждой выполненной работы за каждым
               специалистом</p>
@@ -180,14 +182,14 @@
 
         <div class="col-12 col-md-3">
           <div class="advantage text-center position--control">
-            <img src="./img/Adb-Photo.svg" alt="Фото отчёты" class="advantage-image">
+            <img src="./img/6.jpg" alt="Фото отчёты" class="advantage-image">
             <h3 class="advantage-title">Фото и видео отчеты</h3>
             <p class="advantage-description">Предоставляем регулярные фото / видео отчеты о проделанной работе</p>
           </div>
         </div>
         <div class="col-12 col-md-3">
           <div class="advantage text-center position--control">
-            <img src="./img/Adb-Financy.svg" alt="Контроль финансов" class="advantage-image">
+            <img src="./img/7.jpg" alt="Контроль финансов" class="advantage-image">
             <h3 class="advantage-title">Прозрачный контроль финансов</h3>
             <p class="advantage-description">У вас будет постоянный доступ в приложение, в котором вы сможете в режиме
               онлайн контролировать все расходы</p>
@@ -195,7 +197,7 @@
         </div>
         <div class="col-12 col-md-3 position--control">
           <div class="advantage text-center">
-            <img src="./img/Adb-garanin.svg" alt="Гарантия" class="advantage-image">
+            <img src="./img/8.jpg" alt="Гарантия" class="advantage-image">
             <h3 class="advantage-title">Гарантия</h3>
             <p class="advantage-description">Мы несем гарантийные обязательства за все выполненные работы</p>
           </div>
@@ -229,9 +231,9 @@
       </div>
 
       <div class="row justify-content-center px-4">
-        <div class="col-md-auto">
+        <div class="col-md-auto adaptive-center">
           <button class="button-primary btn-reset">
-            <span class="btn-label-primary btn-port">ПОСМОТРЕТЬ ВСЁ</span>
+            <a href="./portfolio/index.html"> <span class="btn-label-primary btn-port">ПОСМОТРЕТЬ ВСЁ</span></a>
           </button>
         </div>
       </div>
@@ -316,7 +318,7 @@
         <div class="col-md-6 col-lg-6">
           <h1 class="title-how">СКОЛЬКО СТОИТ МОЙ РЕМОНТ?</h1>
           <p class="how-text">ОСТАВЬТЕ ЗАЯВКУ, НАШ СПЕЦИАЛИСТ РАСЧИТАЕТ СТОИМОСТЬ.</p>
-          <form class="form--setting" action="/your-target-url" method="POST">
+          <form class="form--setting" action="form.php" method="POST">
             <div class="input-group">
               <input type="text" name="name" class="form-control" placeholder="Ваше имя">
               <input type="text" name="phone" class="form-control" placeholder="Номер телефона">
@@ -467,7 +469,7 @@
           </div>
           <div class="col-md-4 block-qform">
             <div class="forma">
-              <form class="input-group form--setting" action="/your-target-url" method="POST">
+              <form class="input-group form--setting" action="form.php" method="POST">
                 <div class="form-group ">
                   <label for="nameInput" class="form-title">Имя</label>
                   <input type="text" id="nameInput" class="form-control form--margin">
@@ -503,7 +505,7 @@
   <footer class="footer container-fluid text-white footer--setting">
     <div class="container">
       <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-2 site-maps">
           <h3 class="footer-title">КАРТА САЙТА</h3>
           <ul class="list-footer list-reset">
             <li class="list-item"><a href="../repair/index.html">Ремонт квартир</a></li>
@@ -571,7 +573,29 @@
   <script src="./js/maps.js"></script>
   <script src="js/modal.js"></script>
   <script src="js/burger.js"></script>
+  <script src="js/main.js"></script>
 
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript">
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () { (m[i].a = m[i].a || []).push(arguments) };
+      m[i].l = 1 * new Date();
+      for (var j = 0; j < document.scripts.length; j++) { if (document.scripts[j].src === r) { return; } }
+      k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a)
+    })
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(93821987, "init", {
+      clickmap: true,
+      trackLinks: true,
+      accurateTrackBounce: true,
+      webvisor: true
+    });
+  </script>
+  <noscript>
+    <div><img src="https://mc.yandex.ru/watch/93821987" style="position:absolute; left:-9999px;" alt="" /></div>
+  </noscript>
+  <!-- /Yandex.Metrika counter -->
 
 </body>
 

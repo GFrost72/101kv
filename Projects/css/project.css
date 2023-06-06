@@ -73,6 +73,10 @@
 
 /* DESIGN */
 
+.design-content {
+  display: none;
+}
+
 .design__title {
   font-weight: 600;
   font-size: 36px;
@@ -82,7 +86,7 @@
 
 .design__text {
   font-weight: 500;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 47px;
   width: 94%;
   margin-bottom: 40px;
@@ -107,8 +111,8 @@
 
 .design__desc {
   font-weight: 500;
-font-size: 36px;
-line-height: 47px;
+  font-size: 36px;
+  line-height: 47px;
 }
 
 .design__desc:not(:last-child) {
@@ -120,11 +124,11 @@ line-height: 47px;
 }
 
 .price {
-font-weight: 500;
-font-size: 64px;
-line-height: 71px;
-margin-bottom: 70px;
-
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 71px;
+  margin-bottom: 70px;
+  justify-content: end;
 }
 
 @media (max-width: 1200px) {
@@ -180,13 +184,14 @@ margin-bottom: 70px;
 
 @media (max-width: 1400px) {
   .price {
-      font-size: 40px;
-      margin-bottom: 30px;
+    font-size: 40px;
+    margin-bottom: 30px;
   }
 }
 
 .block-price {
   margin-bottom: 30px;
+  justify-content: end;
 }
 
 
@@ -211,4 +216,74 @@ margin-bottom: 70px;
 
 #tooltip {
   cursor: pointer;
+}
+
+@media (max-width: 750px) {
+  .page {
+    padding-top: 120px;
+  }
+
+  .block-steps {
+    align-items: flex-start;
+  }
+
+  .block-tabs {
+    margin-bottom: 39px;
+  }
+
+  .technical__text {
+    margin-bottom: 24px;
+  }
+
+  .title-project {
+    margin-bottom: 35px;
+  }
+
+  .tooltip__icon {
+    width: 63px;
+  }
+
+  .block-price {
+    margin-bottom: 25px;
+    justify-content: end;
+  }
+
+  .price {
+    font-size: 30px;
+    margin-bottom: 10px;
+    justify-content: end;
+  }
+
+  .btn-label-primary {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .design__text {
+    font-size: 16px;
+    line-height: 34px;
+  }
+
+  .design__title {
+    font-size: 23px;
+    line-height: 34px;
+    margin-bottom: 25px;
+  }
+
+  .design__desc {
+    font-size: 16px;
+    line-height: 34px;
+  }
+
+  .design__desc:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .design__desc:last-child {
+    margin-bottom: 15px;
+  }
+
+  .margin--bottom {
+    margin-bottom: 15px;
+  }
 }

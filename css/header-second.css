@@ -23,28 +23,25 @@
 .navigation {
   display: flex;
   justify-content: space-between;
+
 }
 
-.navigation a {
-  margin-right: 37px;
-  display: flex;
-}
 
 .nav_link {
   font-weight: 700;
   font-size: 20px;
   line-height: 17px;
-  color: var(--dark-color);
+  color: #000;
   margin-right: 39px;
   transition: color 0.3s ease-in-out;
 }
 
-.nav_link:hover {
+.nav_link:hover,
+.nav_link:active {
   color: #1C8493;
 }
 
 .nav_link:active {
-  color: #1C8493;
   background-color: var(--light-color);
   border-bottom: 3px solid #1C8493;
   padding-bottom: 5px;
@@ -61,6 +58,21 @@
 }
 
 /* Стили для мобильных устройств */
+@media (max-width: 1200px) {
+  .navigation {
+    display: none;
+  }
+
+   .header {
+    justify-content: space-around;
+    padding-top: 0px;
+    justify-content: flex-start;
+    padding-top: 24px;
+    margin-bottom: 0;
+    display: block;
+  }
+}
+
 @media (max-width: 768px) {
   .navigation {
     flex-direction: column;
@@ -68,21 +80,137 @@
   }
 
   .navigation a {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    line-height: 21px;
   }
 }
 
 @media (max-width: 1500px) {
-  .navigation {
-    display: none;
-  }
+  .nav_link {
+    font-size: 14px;
+    line-height: 17px;
+    margin-right: 21px;
 
-  .header {
-    justify-content: space-around;
   }
 }
 
+@media (max-width: 1200px) {
+  .nav_link {
+    color: black;
+  }
+}
+
+/* Стили для иконки бургер-меню */
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  z-index: 10;
+  position: absolute;
+  top: 42px;
+  right: 25px;
+}
+
+.burger-menu div {
+  width: 2rem;
+  height: 0.25rem;
+  background-color: #000;
+  border-radius: 10px;
+  transition: all 0.3s linear;
+}
+
+@media (max-width: 1200px) {
+  .burger-menu {
+    display: flex;
+  }
+
+  .navigation {
+    display: none;
+  }
+}
+
+/* Открытая навигация */
+.nav-active {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 45%;
+  padding: 20px;
+  background-color: #ffffff;
+  z-index: 999;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+  align-items: baseline;
+}
 
 
+/* Анимация иконки бургер-меню при открытии */
+.burger-toggle {
+  position: fixed;
+  z-index: 1000; /* Установите z-index выше, чем у меню */
+}
+
+.burger-toggle div:nth-child(1) {
+  transform: rotate(-45deg);
+}
+
+.burger-toggle div:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-toggle div:nth-child(3) {
+  transform: rotate(45deg);
+}
+
+.burger-toggle div {
+  background-color: #000; /* Черный цвет */
+}
+
+@media (max-width: 450px){
+  .header__button {
+      width: 60px;
+      margin-bottom: 20px;
+  }
+  .header {
+    padding-top: 24px;
+    margin-bottom: 0;
+    display: block;
+  }
+
+  .logo {
+    width: 55%;
+  }
+  }
+
+  @media screen and (max-width: 450px) {
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 999;
+
+      /* Применение flexbox */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .header {
+      margin-bottom: 0px;
+      display: block;
+      padding-top: 21px;
+      padding-left: 9px;
+      background-color: #ffffff;
+    }
+  }
 
 
