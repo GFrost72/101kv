@@ -1,14 +1,14 @@
 .project {
   background-color: #F5F5F7;
+  padding-top: 180px;
 }
 
 /* TECH */
 
 .technical__text {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 47px;
-  width: 704px;
   margin-bottom: 120px;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .block-steps {
-  align-items: center;
+  align-items: baseline;
 }
 
 .steps__title {
@@ -33,7 +33,7 @@
   border: 1px solid #000000;
   padding: 16px 45px;
   font-weight: 500;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 40px;
   color: white;
   text-align: center;
@@ -45,13 +45,13 @@
 
 .steps__text {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 34px;
   line-height: 17px;
 }
 
 .steps__desc {
   font-weight: 500;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 57px;
   max-width: 228px;
   margin-bottom: 33px;
@@ -71,6 +71,10 @@
   margin-right: 10px;
 }
 
+.block-price {
+    justify-content: center;
+}
+
 /* DESIGN */
 
 .design-content {
@@ -79,14 +83,14 @@
 
 .design__title {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 34px;
   line-height: 47px;
   margin-bottom: 50px;
 }
 
 .design__text {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 47px;
   width: 94%;
   margin-bottom: 40px;
@@ -111,7 +115,7 @@
 
 .design__desc {
   font-weight: 500;
-  font-size: 36px;
+  font-size: 28px;
   line-height: 47px;
 }
 
@@ -144,9 +148,9 @@
   }
 
   .steps__title {
-    font-size: 17px;
+    font-size: 13px;
     line-height: 20px;
-    padding: 8px 22px;
+    padding: 8px 8px;
     margin-right: 30px;
     margin-bottom: 15px;
   }
@@ -177,8 +181,12 @@
 
 @media (max-width: 476px) {
   .steps__text {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 23px;
+  }
+
+  .project {
+    padding-top: 60px;
   }
 }
 
@@ -223,10 +231,6 @@
     padding-top: 120px;
   }
 
-  .block-steps {
-    align-items: flex-start;
-  }
-
   .block-tabs {
     margin-bottom: 39px;
   }
@@ -245,7 +249,7 @@
 
   .block-price {
     margin-bottom: 25px;
-    justify-content: end;
+    justify-content: center;
   }
 
   .price {
@@ -286,8 +290,4 @@
   .margin--bottom {
     margin-bottom: 15px;
   }
-}
-
-.project {
-  padding-top: 180px;
 }

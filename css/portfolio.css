@@ -8,6 +8,7 @@
 .port-photos .col {
   flex: 0 0 calc(25% - 2px); /* 4 колонки с минимальным отступом в 1 пиксель */
   padding: 1px;
+  max-height: 470px;
 }
 
 .portfolio-image {
@@ -31,5 +32,7 @@
     width: 70%;
   }
 }
+
+
 
 

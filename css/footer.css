@@ -5,15 +5,16 @@
 
 .footer-svg {
   margin-right: 27px;
+  width: 50px;
 }
 
 .footer--setting {
-  padding: 65px 65px 10px 65px;
+  padding: 35px 29px 10px 32px;
 }
 
 .footer-title {
   font-weight: 700;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 24px;
   font-family: 'Vollkorn SC';
   margin-bottom: 40px;
@@ -32,8 +33,9 @@
 }
 
 .list-item:last-child {
-  margin-bottom: 165px;
+  margin-bottom: 79px;
 }
+
 
 .political-footer {
   font-weight: 300;
@@ -48,9 +50,10 @@
 
 .contacts-text {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 28px;
   transition: color 0.2s ease-in-out 0s;
+
 }
 
 .contacts-text:hover {
@@ -71,6 +74,7 @@
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+  margin-bottom: 25px;
  }
 
 .logo-footer {
@@ -97,13 +101,13 @@
   line-height: 15px;
 }
 
- @media (max-width: 1380px){
+ @media (max-width: 1500px){
   .footer {
-    padding: 20px 0px 10px 0px;
+    padding: 20px 0px 0px 0px;
   }
 
   .contacts-text {
-    font-size: 19px;
+    font-size: 12px;
     line-height: 16px;
   }
   .logo-footer {
@@ -114,12 +118,12 @@
     text-align: center;
   }
   .footer-svg {
-    width: 72px;
+    width: 41px;
     height: 47px;
   }
 
   .footer-title {
-    font-size: 28px;
+    font-size: 23px;
     line-height: 26px;
     margin-bottom: 30px;
   }
@@ -134,12 +138,12 @@
 
   .list-item {
     font-weight: 500;
-    font-size: 18px;
+    font-size: 14px;
     line-height: 14px;
   }
 
   .contacts {
-    width: 41.333333%;
+    width: 24.333333%;
   }
 
   .site-maps {
@@ -147,7 +151,7 @@
   }
 
   .list-item:last-child {
-    margin-bottom: 89px;
+    margin-bottom: 98px;
 }
 }
 
@@ -179,6 +183,7 @@
 
   .contacts {
     width: 100%;
+    margin-bottom: 20px;
   }
 
   .site-maps {
@@ -211,8 +216,8 @@
   }
 
   .footer-title {
-    font-size: 29px;
-  line-height: 14px;
+    font-size: 20px;
+    line-height: 28px;
   margin-bottom: 30px;
   }
 
@@ -227,4 +232,8 @@
   .site-maps {
     width: 100%;
   }
+}
+
+.font {
+  font-family: sans-serif;
 }

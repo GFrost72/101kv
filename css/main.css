@@ -89,7 +89,7 @@ p {
   line-height: 36px;
   font-family: 'Vollkorn SC';
   letter-spacing: 0.36px;
-  border-bottom: #1C8493 solid 9px;
+  border-bottom: #1C8493 solid 5px;
   display: inline-block;
   padding-bottom: 15px;
   margin-bottom: 52px;
@@ -103,6 +103,10 @@ p {
     line-height: 33px;
   }
   }
+
+.underline {
+  text-decoration: underline solid;
+}
 
 .background--color {
   background-color: #F5F5F7;
@@ -147,7 +151,7 @@ p {
   }
 
   .title--top {
-    padding-top: 0;
+    padding-top: 23px;
   }
 
   .section-offset {
@@ -164,6 +168,16 @@ p {
 
     @media (min-width: 1400px){
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1637px;
+        max-width: 1711px;
     }
+}
+
+    .padding-bot {
+      padding-bottom: 105px;
+    }
+
+    @media (max-width: 1400px){
+      .container--second {
+        max-width: 1140px;
+      }
     }

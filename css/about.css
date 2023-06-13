@@ -3,7 +3,7 @@
 }
 
 .underlined {
-  border-bottom: 4px solid currentColor;
+  border-bottom: 4px solid #1C8493;
   padding-bottom: 1px;
 }
 
@@ -33,7 +33,7 @@
 }
 
 .about-image {
-  background-image: url(../img/image_misson.png);
+  background-image: url(../img/image_misson.webp);
   background-repeat: no-repeat;
   min-height: 603px;
   min-width: 603px;
@@ -59,7 +59,7 @@
 
   .about-title {
     font-size: 25px;
-    line-height: 33px;
+    line-height: 44px;
     margin-bottom: 40px;
     min-width: auto;
   }
@@ -86,3 +86,16 @@
     max-width: 1260px;
 }
 }
+
+
+@media (max-width: 1600px) {
+  .about-title {
+    font-size: 24px;
+    min-width: 300px;
+    line-height: 46px;
+  }
+  .about-image {
+    transform: none;
+
+  }
+  }

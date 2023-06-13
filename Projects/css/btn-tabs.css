@@ -35,6 +35,15 @@
   color: #000;
   font-size: 25px;
   font-weight: 700;
+  border: solid;
+  width: 37%;
+  min-height: 40px;
+}
+
+.tab-btn-one:not(.active):hover {
+  background: none;
+  color: white;
+  background-color: #1C8493;
 }
 
 .tab-btn-two:not(.active) {
@@ -43,12 +52,37 @@
   border-radius: 20px;
   font-size: 25px;
   font-weight: 700;
+  border: solid;
+  width: 37%;
+  min-height: 60px;
 }
+
+.tab-btn-two:not(.active):hover {
+  background: none;
+  color: white;
+  background-color: #1C8493;
+ }
 
 
 @media (max-width: 1400px) {
+  .tab-btn-one.active {
+    width: 100%;
+  }
+
+  .tab-btn-two.active {
+    width: 100%;
+  }
+
   .tab-btn-two {
     font-size: 28px;
+  }
+
+  .tab-btn-one:not(.active) {
+      width: 100%;
+  }
+
+  .tab-btn-two:not(.active) {
+    width: 100%;
   }
 }
 

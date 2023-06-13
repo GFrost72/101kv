@@ -1,14 +1,14 @@
 .background--repair {
   background-color: #1C8493;
   padding: 40px;
-  margin-bottom: 40px;
+
 }
 
 .image-repair {
-  background-image: url(../img/Photo-how.png);
+  background-image: url(../img/Photo-how.webp);
   background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
+  max-width: 738px;
   height: 446px;
   border-radius: 34px;
 }
@@ -26,7 +26,7 @@
 
 .title-how {
   font-weight: 700;
-  font-size: 48px;
+  font-size: 34px;
   line-height: 42px;
   text-transform: uppercase;
   margin-bottom: 100px;
@@ -38,7 +38,6 @@
   font-size: 28px;
   line-height: 42px;
   color: white;
-  width: 850px;
   margin-bottom: 60px;
 }
 
@@ -94,6 +93,7 @@ input[type="text"]::placeholder {
 
   .background--repair {
     padding: 0;
+
   }
 
   .political-how {
@@ -101,5 +101,9 @@ input[type="text"]::placeholder {
     line-height: 21px;
     margin-bottom: 10px;
   }
+
+  .form-control {
+    margin-bottom: 15px;
+}
   }
 

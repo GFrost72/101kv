@@ -1,5 +1,20 @@
+
+.contact {
+  padding-top: 200px;
+}
+
+.images {
+  padding: 0px 25px;
+}
+
+.width {
+  border: 3px solid black;
+  max-height: 816px;
+}
+
 .contacts-block {
   max-width: 390px;
+  margin-bottom: 35px;
 }
 
 .second-title {
@@ -10,15 +25,16 @@
 }
 
 .big_text {
-  font-weight: 600;
-  font-size: 24px;
+  font-weight: 500;
+  font-size: 20px;
   line-height: 28px;
+  color: grey;
 }
 
 .small_text {
-  font-weight: 400;
-  font-size: 20px;
-  color: #9C9C9C;
+  font-weight: 600;
+  font-size: 19px;
+  color: #212529;
   line-height: 23px;
   margin-bottom: 22px;
 }
@@ -42,6 +58,11 @@
 
 .link_svg {
   margin-right: 20px;
+  width: 56px;
+}
+
+.block-price {
+  justify-content: center;
 }
 
 .telegram-link-text {
@@ -83,6 +104,14 @@
   .form-title {
     margin-left: 0px;
   }
+
+  .contact {
+    padding-top: 60px;
+  }
+
+  .block__image:first-child {
+    margin-bottom: 20px;
+  }
 }
 
 .form-up {
@@ -98,6 +127,7 @@
 
 .form-up:first-child {
   margin-bottom: 20px;
+  margin-right: 20px;
 }
 
 .form-up:last-child {
@@ -147,7 +177,7 @@
 
 @media (max-width: 450px) {
   .big_text {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .political {
@@ -163,7 +193,7 @@
   }
 
   .block__image {
-    padding: 0px 25px;
+
     margin-bottom: 20px;
   }
 
@@ -196,6 +226,4 @@
 }
 }
 
-.contact {
-  padding-top: 200px;
-}
+

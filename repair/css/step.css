@@ -11,6 +11,8 @@
 .wrapper {
   position: relative;
   background-color: #D1D1D1;
+  max-width: 1464px;
+  margin-left: 120px;
 
 }
 
@@ -86,6 +88,10 @@
   line-height: 24px;
 }
 
+.margin--left {
+  margin-left: 120px;
+}
+
 @media only screen and (max-width: 1200px) {
   .steps-wrapper {
     padding: 15px;
@@ -139,3 +145,19 @@
 .px-4 {
   justify-content: right;
 }
+
+
+
+
+
+@media (max-width: 1800px) {
+  .wrapper {
+   margin-left: 0;
+  }
+  .margin--left {
+    margin-left: auto;
+  }
+}
+
+
+

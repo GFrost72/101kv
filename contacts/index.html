@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Ремонт квартир в Тюмени: Мы оказываем услуги по качественному ремонту квартир. Разработка дизайн-проекта, технического проекта, подбор и хранение материалов, сантехника, электрика. Обратитесь к нам для профессионального ремонта квартиры в Тюмени. 101kv. +7 (3452) 903-000">
+  <link rel="icon" href="../img/11.png" type="image/x-icon">
+  <meta name="description" content="Ремонт квартир в Тюмени: Мы оказываем услуги по качественному ремонту квартир. Разработка дизайн-проекта, технического проекта, подбор и продажа материалов, сантехника, электрика. Обратитесь к нам для профессионального ремонта квартиры в Тюмени. 101kv. +7 (3452) 903-000">
   <title>Контакты, 101 Квадрат Строительная Компания</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
   <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript">
@@ -34,14 +35,14 @@
   <!-- HEADER -->
 
   <header class="header  align-items-center">
-    <a href="../index.html"><img class="logo" src="../img/logo-white.svg" alt="logo"></a>
+    <a href="../index.html"><img class="logo" src="../img/logo.svg" alt="logo"></a>
     <nav class="navigation justify-content-between">
       <a class="nav_link" href="../repair/index.html">Ремонт квартир</a>
       <a class="nav_link" href="../Projects/index.html">Разработка проекта</a>
       <a class="nav_link" href="../Materials/index.html">Подбор материалов</a>
       <a class="nav_link" href="../portfolio/index.html">Портфолио</a>
       <a class="nav_link" href="../price/index.html">Цены и оплата</a>
-      <a class="nav_link" href="../contacts/index.html">Контакты</a>
+      <a class="nav_link underline--header" href="../contacts/index.html">Контакты</a>
     </nav>
     <div class="burger-menu">
       <div></div>
@@ -90,22 +91,27 @@
             <p class="small_text">Сб-Вс: <a id="openModalButton1" href="#"><span class="text__link">по предварительной
                   записи</span> </a></p>
 
-            <div id="myModal1" class="modal">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <span class="modal-title">Оставить заявку</span>
-                  <span class="close">&times;</span>
-                </div>
-                <form class="modal-form" action="../form.php" method="POST">
-                  <label for="name">Ваше имя:</label>
-                  <input class="modal-input" type="text" id="name" name="name" required pattern="[A-Za-zА-Яа-яЁё\s]+" title="Пожалуйста, используйте только буквы">
-                  <label for="phone">Ваш номер телефона:</label>
-                  <input class="modal-input" type="tel" id="phone" name="phone" required pattern="^\+?\d{10,13}$" title="Пожалуйста, введите действительный номер телефона">
-                  <input type="submit" value="Отправить">
-              </form>
-                <input class="btn-modal" type="submit" value="Отправить">
-              </div>
-            </div>
+                  <div id="myModal1" class="modal">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <span class="modal-title">Оставить заявку</span>
+                        <span class="close">&times;</span>
+                      </div>
+                      <form class="modal-form" action="../form.php" method="POST">
+                        <label for="name">Ваше имя:</label>
+                        <input class="modal-input" type="text" id="name" name="name" required pattern="[A-Za-zА-Яа-яЁё\s]+"
+                          title="Пожалуйста, используйте только буквы">
+                        <label for="phone">Ваш номер телефона:</label>
+                        <input class="modal-input" type="tel" id="phone" name="phone" required
+                          pattern="^\+\d{1} \(\d{3}\) \d{3}-\d{2}-\d{2}$"
+                          title="Пожалуйста, введите действительный номер телефона">
+                        <input type="submit" value="Отправить">
+                        <p class="political-how">*Отправляя данную форму вы соглашаетесь с политикой <a
+                            href="../politica/politika-konfidencialnosti.html"> <span
+                              class="underline">конфиденциальности</span> </a>.</p>
+                      </form>
+                    </div>
+                  </div>
           </div>
         </div>
 
@@ -115,7 +121,7 @@
             <form class="form-contact" action="../form.php" method="POST">
               <div class="form-group">
                 <input type="text" class="form-up" id="name" name="name" placeholder="Имя" required pattern="[A-Za-zА-Яа-яЁё\s]+" title="Пожалуйста, используйте только буквы">
-                <input type="text" class="form-up" id="phone" name="phone" placeholder="Телефон" required pattern="^\+?\d{10,13}$" title="Пожалуйста, введите действительный номер телефона">
+                <input type="text" class="form-up" id="phone" name="phone" placeholder="Телефон" required pattern="^\+\d{1} \(\d{3}\) \d{3}-\d{2}-\d{2}$" title="Пожалуйста, введите действительный номер телефона">
               </div>
 
               <button class="button-primary btn-reset margin--bottom">
@@ -123,7 +129,7 @@
               </button>
             </form>
             <p class="political">*Отправляя данную форму вы соглашаетесь
-              с политикой конфиденциальности.</p>
+              с политикой <a href="../politica/politika-konfidencialnosti.html"><span class="underline">конфиденциальности</span></a></p>
             <!-- Замените # на URL ссылки и 'Текст ссылки' на текст ссылки -->
             <a href="tg://resolve?domain=sto1kvadrat"> <img src="./img/tg.svg" class="link_svg" alt="telegram_link">
               <span class="telegram-link-text">НАПИСАТЬ НАМ В TELEGRAM</span></a>
@@ -141,13 +147,13 @@
         </div>
         <div class="images text-center">
           <img class="block__image" src="./img/IMG_9900.jpg" alt="">
-          <img class="block__image" src="./img/Снимок111 1.jpg" alt="">
+          <img class="block__image width" src="./img/map.png" alt="">
         </div>
   </section>
 
   <!-- form -->
 
-  <section class="Questions section-offset">
+  <!-- <section class="Questions section-offset">
     <h2 class="title-second text-center">
       Остались вопросы – оставьте заявку, мы вам перезвоним! </h2>
     <div class="container-md">
@@ -184,7 +190,7 @@
 
       </div>
     </div>
-  </section>
+  </section> -->
 
 
 
@@ -193,26 +199,25 @@
   <footer class="footer container-fluid text-white footer--setting">
     <div class="container">
       <div class="row">
-        <div class="col-md-2 site-maps">
+        <div class="col-lg-2 col-md-3 col-sm-4 site-maps">
           <h3 class="footer-title">КАРТА САЙТА</h3>
           <ul class="list-footer list-reset">
             <li class="list-item"><a href="../repair/index.html">Ремонт квартир</a></li>
             <li class="list-item"><a href="../Projects/index.html">Технический проект</a></li>
             <li class="list-item"><a href="../Projects/index.html">Дизайн-проект</a></li>
-            <li class="list-item"><a href="../Materials/index.html">Подбор Материалов</a></li>
+            <li class="list-item"><a href="../Materials/index.html">Подбор материалов</a></li>
             <li class="list-item"><a href="../portfolio/index.html">Портфолио</a></li>
             <li class="list-item"><a href="../price/index.html">Цены и оплата</a></li>
             <li class="list-item"><a href="../contacts/index.html">Контакты</a></li>
           </ul>
-          <p class="political-footer">ВСЕ ПРАВА ЗАЩИЩЕНЫ</p>
-          <p class="political-footer underline--footer">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</p>
+       <a href="../politica/politika-konfidencialnosti.html"> <p class="political-footer underline--footer">ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</p> </a>
         </div>
-        <div class="col-md-4 text--center contacts">
+        <div class="col-lg-4 col-md-3 col-sm-4 text--center contacts">
           <h3 class="footer-title">СВЯЗАТЬСЯ С НАМИ</h3>
           <div class="d-flex align-items-center mb-2">
             <a href="tel:+73452903000">
               <img src="../img/phone_svg.svg" alt="телефон" class="footer-svg">
-              <span class="ml-2 contacts-text text-footer-size">+ 7 3452 903 000</span>
+              <span class="ml-2 contacts-text">+7 (3452) 903-000</span>
             </a>
           </div>
           <div class="d-flex align-items-center mb-2">
@@ -234,14 +239,14 @@
                 class="footer-svg">
               <span class="ml-2 contacts-text">МЫ В ЯНДЕКС ДЗЕН</span></a>
           </div>
-          <a href="./index.html">
-            <img class="logo-footer" src="../img/logo-footer.svg" alt=""> </a>
+
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-6 col-md-6 col-sm-4">
+          <p class="text-center footer-title">Г. ТЮМЕНЬ, УЛ. ДИМИТРОВА, <span class="font">35</span></p>
           <div class="map">
             <div id="map" class="yandex-map"></div>
           </div>
-          <p class="adress text-center">г. Тюмень, ул. Димитрова, 35</p>
+
         </div>
       </div>
     </div>
@@ -250,16 +255,14 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmIvYmdUksdQRVvoxMfE"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-Os/xCg7MxJjzYNP1fPQbGFuYQbIu08j6gU2avA/E78z9jp180U1rXw6j4pO5fraX"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
   <script src="../js/maps.js"></script>
   <script src="../js/modal.js"></script>
   <script src="../js/burger.js"></script>
+  <script src="../js/mask.js"></script>
 
   <!-- Yandex.Metrika counter -->
   <script type="text/javascript">

@@ -4,14 +4,9 @@
   padding-top: 180px;
 }
 
-
-.advantages {
-  background-color: #F5F5F7;
-}
-
 .material-text {
   font-weight: 500;
-  font-size: 32px;
+  font-size: 28px;
   line-height: 41px;
   margin-bottom: 40px;
   max-width: 960px;
@@ -97,6 +92,10 @@
 }
 
 
+.block-price {
+  justify-content: flex-end;
+}
+
 .card.darken::after {
   content: "";
   position: absolute;
@@ -123,7 +122,7 @@
   line-height: 48px;
   color: white;
   text-align: center;
-  text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000;
+  text-shadow: 2px 0 5px #000000, 0 2px 5px #000000, 0 0 5px #000000, 0 0 5px #000000;
 }
 
 .mb-2 {
@@ -203,10 +202,11 @@
     font-size: 18px;
     line-height: 20px;
 }
+
+.material {
+    padding-top: 50px;
+}
 }
 
-.block-price {
-  justify-content: end;
-}
 
 

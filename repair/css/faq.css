@@ -1,3 +1,7 @@
+.faq {
+  background-color: #F5F5F7;
+}
+
 .card {
   border-bottom: 1px solid #000;
   transform: rotate(-0.09deg);
@@ -44,16 +48,19 @@
 
 .faq-question {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 21px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  background-color: #F5F5F7;
   /* для того, чтобы элементы растягивались на всю ширину */
 }
 
-
+.card-header {
+  background-color: #F5F5F7;
+}
 
 
 .fa-plus-circle:before {
@@ -61,7 +68,7 @@
 }
 
 .faq-icon {
-  background-color: #1C8493;
+
   border-radius: 50%;
   transition: opacity 0.5s ease-in-out;
   /* анимируем opacity вместо всего */
@@ -77,10 +84,11 @@
 
 
 .faq-answer {
+  background-color: #f5f5f7;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 26px;
   line-height: 42px;
-  padding: 30px;
+  padding: 60px;
 }
 
 .tittle--faq {
@@ -119,6 +127,7 @@
   .faq-answer {
     font-size: 20px;
     line-height: 28px;
+    padding: 10px;
   }
 
   .card:last-child{

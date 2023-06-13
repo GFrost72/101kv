@@ -1,0 +1,46 @@
+.policy {
+  padding-top: 180px;
+  margin-bottom: 50px;
+}
+
+.policy-main-title {
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+.personal-data {
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.policy-title-second {
+font-size: 24px;
+margin-bottom: 20px;
+}
+
+.policy-text {
+  margin-bottom: 15px;
+  line-height: 25px;
+}
+
+.padding-left {
+  padding-left: 80px;
+}
+
+.padding-left-extra{
+  padding-left: 150px;
+}
+
+@media (max-width:450px) {
+  .policy {
+    padding-top: 30px;
+  }
+
+  .padding-left-extra{
+    padding-left: 10px;
+  }
+
+  .padding-left {
+    padding-left: 10px;
+  }
+}

@@ -36,9 +36,6 @@
     width: 100%;
   }
 
-  .sadv-card {
-    margin-bottom: 30px;
-  }
 }
 
 @media (max-width: 450px) {
@@ -63,5 +60,29 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1615px) {
+  .sadv--row {
+    flex-direction: row;
+  }
+
+  .sadv-col-md-4 {
+    width: 33.33%;
+  }
+
+  .sadv-card  {
+    padding: 10px;
+  }
+
+  .sadv-text {
+    font-size: 24px;
+  }
+
+  .sadv__title {
+    font-size: 27px;
+    line-height: 34px;
+    margin-bottom: 30px;
   }
 }
